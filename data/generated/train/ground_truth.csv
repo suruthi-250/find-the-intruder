@@ -1,0 +1,5 @@
+split,scenario_id,entity_id,day,label,trap_type,attack_start,attack_end,expected_stages,profile
+train,train-001-00-typo_login,10.0.0.81,2026-10-02,benign_trap,typo_login,,,,base
+train,train-002-00-internal_backup,10.0.0.20,2026-10-03,benign_trap,internal_backup,,,,base
+train,train-003-00-failed_external_auth,203.0.113.55,2026-10-04,benign_trap,failed_external_auth,,,,base
+train,train-004-00-noisy_benign,10.0.0.196,2026-10-05,benign_trap,noisy_benign,,,,base

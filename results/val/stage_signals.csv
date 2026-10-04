@@ -1,0 +1,1129 @@
+entity,ts,stage,eid,evidence
+10.0.0.10,2026-10-25 03:04:20,PERSISTENCE,57,new account 'admin_58'
+10.0.0.10,2026-10-25 03:41:20,PERSISTENCE,72,new account 'admin_41'
+10.0.0.10,2026-10-25 05:41:00,PRIV_ESC,114,elevated shell sudo event
+10.0.0.10,2026-10-25 22:03:00,PRIV_ESC,415,elevated shell sudo event
+10.0.0.10,2026-10-30 05:47:20,PERSISTENCE,2437,new account 'admin_92'
+10.0.0.10,2026-11-01 23:53:20,PERSISTENCE,3804,new account 'admin_71'
+10.0.0.10,2026-11-04 17:37:00,PRIV_ESC,5060,elevated shell sudo event
+10.0.0.10,2026-11-06 02:22:00,PRIV_ESC,5708,elevated shell sudo event
+10.0.0.10,2026-11-13 09:36:00,PRIV_ESC,9224,elevated shell sudo event
+10.0.0.10,2026-11-13 19:45:00,PRIV_ESC,9469,elevated shell sudo event
+10.0.0.10,2026-11-17 10:51:20,PERSISTENCE,11152,new account 'admin_24'
+10.0.0.10,2026-11-23 01:28:20,PERSISTENCE,13853,new account 'admin_33'
+10.0.0.10,2026-12-02 09:12:00,PRIV_ESC,18391,elevated shell sudo event
+10.0.0.10,2026-12-05 01:11:00,PRIV_ESC,19657,elevated shell sudo event
+10.0.0.10,2026-12-07 04:20:00,PRIV_ESC,20664,elevated shell sudo event
+10.0.0.100,2026-11-13 19:28:20,PERSISTENCE,9460,new account 'admin_46'
+10.0.0.102,2026-10-29 21:06:00,PRIV_ESC,2264,elevated shell sudo event
+10.0.0.102,2026-11-20 04:42:20,PERSISTENCE,12469,new account 'admin_23'
+10.0.0.103,2026-11-04 02:25:00,PRIV_ESC,4770,elevated shell sudo event
+10.0.0.105,2026-11-26 17:58:00,PRIV_ESC,15618,elevated shell sudo event
+10.0.0.105,2026-12-05 01:04:00,PRIV_ESC,19652,elevated shell sudo event
+10.0.0.106,2026-10-27 00:49:00,PRIV_ESC,925,elevated shell sudo event
+10.0.0.108,2026-11-26 04:14:20,PERSISTENCE,15336,new account 'admin_85'
+10.0.0.108,2026-12-04 03:21:00,PRIV_ESC,19189,elevated shell sudo event
+10.0.0.109,2026-11-17 13:43:00,PRIV_ESC,11204,elevated shell sudo event
+10.0.0.109,2026-11-17 14:28:20,PERSISTENCE,11214,new account 'admin_11'
+10.0.0.109,2026-11-17 15:18:20,PERSISTENCE,11225,new account 'admin_21'
+10.0.0.109,2026-11-23 10:16:00,PRIV_ESC,14014,elevated shell sudo event
+10.0.0.110,2026-10-25 17:24:00,PRIV_ESC,335,elevated shell sudo event
+10.0.0.110,2026-10-25 20:59:20,PERSISTENCE,391,new account 'admin_11'
+10.0.0.110,2026-12-06 02:48:20,PERSISTENCE,20198,new account 'admin_53'
+10.0.0.111,2026-11-02 12:57:20,PERSISTENCE,4050,new account 'admin_12'
+10.0.0.111,2026-12-06 10:33:00,PRIV_ESC,20332,elevated shell sudo event
+10.0.0.112,2026-10-26 03:44:00,PRIV_ESC,530,elevated shell sudo event
+10.0.0.112,2026-11-18 05:12:00,PRIV_ESC,11517,elevated shell sudo event
+10.0.0.113,2026-12-07 14:43:20,PERSISTENCE,20859,new account 'admin_82'
+10.0.0.113,2026-12-14 21:45:00,PRIV_ESC,24503,elevated shell sudo event
+10.0.0.114,2026-12-05 23:12:00,PRIV_ESC,20118,elevated shell sudo event
+10.0.0.114,2026-12-16 19:26:20,PERSISTENCE,25393,new account 'admin_49'
+10.0.0.115,2026-10-31 18:41:20,PERSISTENCE,3231,new account 'admin_65'
+10.0.0.116,2026-12-19 15:55:00,PRIV_ESC,26750,elevated shell sudo event
+10.0.0.117,2026-10-31 09:27:00,PRIV_ESC,3005,elevated shell sudo event
+10.0.0.118,2026-11-06 23:59:00,PRIV_ESC,6171,elevated shell sudo event
+10.0.0.118,2026-11-20 22:09:00,PRIV_ESC,12861,elevated shell sudo event
+10.0.0.118,2026-11-29 17:38:20,PERSISTENCE,17106,new account 'admin_40'
+10.0.0.119,2026-11-02 13:34:44,COMPROMISE,4064,successful login after 2 failed logins in 15m
+10.0.0.119,2026-12-04 03:23:20,PERSISTENCE,19191,new account 'admin_63'
+10.0.0.121,2026-11-04 11:53:00,PRIV_ESC,4954,elevated shell sudo event
+10.0.0.121,2026-11-28 22:41:00,PRIV_ESC,16731,elevated shell sudo event
+10.0.0.122,2026-11-27 10:51:00,PRIV_ESC,15948,elevated shell sudo event
+10.0.0.123,2026-10-27 13:21:00,PRIV_ESC,1181,elevated shell sudo event
+10.0.0.123,2026-10-29 14:39:30,RECON,2128,"4 connections, 4 distinct ports, 2 denied in 10m"
+10.0.0.123,2026-10-29 14:39:40,RECON,2129,"5 connections, 5 distinct ports, 3 denied in 10m"
+10.0.0.123,2026-10-29 14:39:50,RECON,2130,"6 connections, 6 distinct ports, 4 denied in 10m"
+10.0.0.123,2026-10-29 14:40:00,RECON,2131,"7 connections, 7 distinct ports, 5 denied in 10m"
+10.0.0.123,2026-10-29 14:40:10,RECON,2132,"8 connections, 8 distinct ports, 5 denied in 10m"
+10.0.0.124,2026-10-27 09:27:20,PERSISTENCE,1108,new account 'admin_72'
+10.0.0.124,2026-11-20 20:41:00,PRIV_ESC,12828,elevated shell sudo event
+10.0.0.124,2026-12-08 18:51:00,PRIV_ESC,21480,elevated shell sudo event
+10.0.0.124,2026-12-08 18:51:20,PERSISTENCE,21481,new account 'admin_65'
+10.0.0.125,2026-11-16 10:36:00,PRIV_ESC,10681,elevated shell sudo event
+10.0.0.125,2026-11-29 00:44:00,PRIV_ESC,16771,elevated shell sudo event
+10.0.0.126,2026-11-17 19:23:00,PRIV_ESC,11303,elevated shell sudo event
+10.0.0.126,2026-11-25 07:43:20,PERSISTENCE,14952,new account 'admin_23'
+10.0.0.126,2026-12-17 22:14:20,PERSISTENCE,25908,new account 'admin_94'
+10.0.0.127,2026-11-30 10:28:00,PRIV_ESC,17433,elevated shell sudo event
+10.0.0.128,2026-11-05 22:54:00,PRIV_ESC,5637,elevated shell sudo event
+10.0.0.128,2026-11-05 22:54:20,PERSISTENCE,5638,new account 'admin_56'
+10.0.0.128,2026-12-19 13:12:00,PRIV_ESC,26685,elevated shell sudo event
+10.0.0.129,2026-11-03 00:16:00,PRIV_ESC,4263,elevated shell sudo event
+10.0.0.129,2026-11-15 08:33:00,PRIV_ESC,10171,elevated shell sudo event
+10.0.0.129,2026-11-16 21:15:00,PRIV_ESC,10878,elevated shell sudo event
+10.0.0.130,2026-11-21 10:10:20,PERSISTENCE,13081,new account 'admin_84'
+10.0.0.130,2026-11-29 15:02:20,PERSISTENCE,17064,new account 'admin_85'
+10.0.0.131,2026-11-23 18:55:20,PERSISTENCE,14180,new account 'admin_12'
+10.0.0.131,2026-11-29 18:34:00,PRIV_ESC,17125,elevated shell sudo event
+10.0.0.132,2026-10-31 00:43:20,PERSISTENCE,2847,new account 'admin_80'
+10.0.0.132,2026-11-10 15:26:00,PRIV_ESC,7911,elevated shell sudo event
+10.0.0.132,2026-11-10 16:39:20,PERSISTENCE,7941,new account 'admin_65'
+10.0.0.132,2026-12-15 23:36:00,PRIV_ESC,25023,elevated shell sudo event
+10.0.0.133,2026-11-15 19:12:20,PERSISTENCE,10381,new account 'admin_19'
+10.0.0.133,2026-11-15 19:43:20,PERSISTENCE,10393,new account 'admin_38'
+10.0.0.133,2026-11-18 14:45:00,PRIV_ESC,11689,elevated shell sudo event
+10.0.0.133,2026-12-08 20:15:20,PERSISTENCE,21511,new account 'admin_26'
+10.0.0.133,2026-12-14 13:45:00,PRIV_ESC,24336,elevated shell sudo event
+10.0.0.134,2026-11-10 01:45:00,PRIV_ESC,7628,elevated shell sudo event
+10.0.0.134,2026-11-20 15:36:20,PERSISTENCE,12726,new account 'admin_74'
+10.0.0.134,2026-12-10 18:00:20,PERSISTENCE,22437,new account 'admin_95'
+10.0.0.134,2026-12-10 18:46:20,PERSISTENCE,22452,new account 'admin_45'
+10.0.0.134,2026-12-15 11:37:20,PERSISTENCE,24760,new account 'admin_68'
+10.0.0.134,2026-12-17 21:21:00,PRIV_ESC,25889,elevated shell sudo event
+10.0.0.135,2026-10-27 08:29:00,PRIV_ESC,1081,elevated shell sudo event
+10.0.0.135,2026-12-14 18:11:00,PRIV_ESC,24424,elevated shell sudo event
+10.0.0.136,2026-11-11 07:17:20,PERSISTENCE,8228,new account 'admin_13'
+10.0.0.136,2026-11-27 18:13:00,PRIV_ESC,16135,elevated shell sudo event
+10.0.0.138,2026-10-28 22:52:00,PRIV_ESC,1824,elevated shell sudo event
+10.0.0.138,2026-10-30 00:19:00,PRIV_ESC,2341,elevated shell sudo event
+10.0.0.138,2026-12-02 18:50:20,PERSISTENCE,18557,new account 'admin_78'
+10.0.0.139,2026-11-16 09:06:00,PRIV_ESC,10645,elevated shell sudo event
+10.0.0.139,2026-11-18 01:14:20,PERSISTENCE,11425,new account 'admin_84'
+10.0.0.139,2026-11-30 06:12:00,PRIV_ESC,17349,elevated shell sudo event
+10.0.0.139,2026-12-02 10:05:00,PRIV_ESC,18406,elevated shell sudo event
+10.0.0.140,2026-10-27 16:02:00,PRIV_ESC,1236,elevated shell sudo event
+10.0.0.140,2026-10-30 06:30:20,PERSISTENCE,2451,new account 'admin_69'
+10.0.0.140,2026-11-03 16:37:00,PRIV_ESC,4575,elevated shell sudo event
+10.0.0.140,2026-12-08 22:50:00,PRIV_ESC,21565,elevated shell sudo event
+10.0.0.141,2026-11-17 07:20:20,PERSISTENCE,11080,new account 'admin_81'
+10.0.0.142,2026-11-10 09:50:20,PERSISTENCE,7788,new account 'admin_57'
+10.0.0.142,2026-12-19 07:53:20,PERSISTENCE,26589,new account 'admin_32'
+10.0.0.142,2026-12-19 08:27:20,PERSISTENCE,26597,new account 'admin_46'
+10.0.0.142,2026-12-19 13:26:20,PERSISTENCE,26688,new account 'admin_41'
+10.0.0.143,2026-11-16 17:16:00,PRIV_ESC,10807,elevated shell sudo event
+10.0.0.143,2026-11-24 13:19:20,PERSISTENCE,14558,new account 'admin_18'
+10.0.0.143,2026-12-12 16:23:20,PERSISTENCE,23371,new account 'admin_54'
+10.0.0.144,2026-12-03 07:41:20,PERSISTENCE,18811,new account 'admin_24'
+10.0.0.144,2026-12-18 04:12:00,PRIV_ESC,26018,elevated shell sudo event
+10.0.0.145,2026-10-31 06:54:00,PRIV_ESC,2964,elevated shell sudo event
+10.0.0.145,2026-12-01 16:41:20,PERSISTENCE,18056,new account 'admin_53'
+10.0.0.146,2026-10-29 20:47:20,PERSISTENCE,2253,new account 'admin_13'
+10.0.0.146,2026-11-13 00:16:20,PERSISTENCE,9045,new account 'admin_27'
+10.0.0.146,2026-11-28 18:59:00,PRIV_ESC,16660,elevated shell sudo event
+10.0.0.146,2026-12-13 09:52:20,PERSISTENCE,23755,new account 'admin_13'
+10.0.0.146,2026-12-16 18:15:00,PRIV_ESC,25374,elevated shell sudo event
+10.0.0.146,2026-12-19 01:18:00,PRIV_ESC,26465,elevated shell sudo event
+10.0.0.147,2026-11-01 15:49:00,PRIV_ESC,3653,elevated shell sudo event
+10.0.0.148,2026-11-03 11:19:00,PRIV_ESC,4479,elevated shell sudo event
+10.0.0.148,2026-11-25 08:32:00,PRIV_ESC,14972,elevated shell sudo event
+10.0.0.148,2026-11-25 08:32:20,PERSISTENCE,14973,new account 'admin_78'
+10.0.0.148,2026-11-28 09:20:20,PERSISTENCE,16436,new account 'admin_71'
+10.0.0.149,2026-11-04 14:25:20,PERSISTENCE,4999,new account 'admin_83'
+10.0.0.149,2026-11-10 07:29:20,PERSISTENCE,7744,new account 'admin_85'
+10.0.0.149,2026-11-19 07:16:20,PERSISTENCE,12030,new account 'admin_82'
+10.0.0.149,2026-11-19 07:57:00,PRIV_ESC,12043,elevated shell sudo event
+10.0.0.149,2026-12-12 05:16:00,PRIV_ESC,23155,elevated shell sudo event
+10.0.0.150,2026-11-14 08:52:20,PERSISTENCE,9707,new account 'admin_49'
+10.0.0.151,2026-11-02 11:27:00,PRIV_ESC,4018,elevated shell sudo event
+10.0.0.151,2026-11-16 03:52:00,PRIV_ESC,10559,elevated shell sudo event
+10.0.0.151,2026-12-05 19:12:00,PRIV_ESC,20042,elevated shell sudo event
+10.0.0.151,2026-12-16 17:24:20,PERSISTENCE,25355,new account 'admin_48'
+10.0.0.151,2026-12-17 02:56:00,PRIV_ESC,25539,elevated shell sudo event
+10.0.0.152,2026-11-09 20:25:00,PRIV_ESC,7537,elevated shell sudo event
+10.0.0.154,2026-11-14 02:15:00,PRIV_ESC,9581,elevated shell sudo event
+10.0.0.154,2026-11-29 10:51:00,PRIV_ESC,16972,elevated shell sudo event
+10.0.0.155,2026-11-07 14:09:20,PERSISTENCE,6450,new account 'admin_35'
+10.0.0.155,2026-12-03 03:13:00,PRIV_ESC,18723,elevated shell sudo event
+10.0.0.155,2026-12-03 03:13:20,PERSISTENCE,18724,new account 'admin_66'
+10.0.0.156,2026-12-10 13:47:45,RECON,22337,"4 connections, 4 distinct ports, 4 denied in 10m"
+10.0.0.156,2026-12-10 13:48:00,RECON,22339,"5 connections, 5 distinct ports, 5 denied in 10m"
+10.0.0.156,2026-12-10 13:48:15,RECON,22340,"6 connections, 6 distinct ports, 5 denied in 10m"
+10.0.0.156,2026-12-11 07:29:20,PERSISTENCE,22693,new account 'admin_48'
+10.0.0.158,2026-10-30 11:03:00,PRIV_ESC,2548,elevated shell sudo event
+10.0.0.158,2026-11-22 20:32:20,PERSISTENCE,13762,new account 'admin_83'
+10.0.0.158,2026-11-23 05:53:20,PERSISTENCE,13944,new account 'admin_58'
+10.0.0.158,2026-12-05 01:16:20,PERSISTENCE,19662,new account 'admin_20'
+10.0.0.158,2026-12-05 01:43:20,PERSISTENCE,19672,new account 'admin_85'
+10.0.0.159,2026-10-27 01:04:00,PRIV_ESC,930,elevated shell sudo event
+10.0.0.159,2026-11-18 01:27:00,PRIV_ESC,11432,elevated shell sudo event
+10.0.0.160,2026-11-29 10:06:00,PRIV_ESC,16958,elevated shell sudo event
+10.0.0.160,2026-11-30 08:15:00,PRIV_ESC,17388,elevated shell sudo event
+10.0.0.161,2026-11-06 10:20:20,PERSISTENCE,5862,new account 'admin_98'
+10.0.0.162,2026-11-10 00:24:00,PRIV_ESC,7607,elevated shell sudo event
+10.0.0.162,2026-12-18 21:04:00,PRIV_ESC,26377,elevated shell sudo event
+10.0.0.163,2026-11-15 09:00:20,PERSISTENCE,10186,new account 'admin_40'
+10.0.0.164,2026-11-05 09:01:20,PERSISTENCE,5367,new account 'admin_10'
+10.0.0.164,2026-11-23 22:50:00,PRIV_ESC,14256,elevated shell sudo event
+10.0.0.164,2026-11-25 05:46:00,PRIV_ESC,14905,elevated shell sudo event
+10.0.0.165,2026-11-20 21:53:00,PRIV_ESC,12857,elevated shell sudo event
+10.0.0.165,2026-12-02 06:05:00,PRIV_ESC,18322,elevated shell sudo event
+10.0.0.165,2026-12-10 13:06:00,PRIV_ESC,22321,elevated shell sudo event
+10.0.0.165,2026-12-14 13:40:20,PERSISTENCE,24332,new account 'admin_89'
+10.0.0.166,2026-11-09 19:26:00,PRIV_ESC,7516,elevated shell sudo event
+10.0.0.166,2026-11-11 20:37:20,PERSISTENCE,8516,new account 'admin_15'
+10.0.0.166,2026-11-29 03:10:00,PRIV_ESC,16820,elevated shell sudo event
+10.0.0.166,2026-12-15 12:26:20,PERSISTENCE,24782,new account 'admin_71'
+10.0.0.166,2026-12-18 21:29:00,PRIV_ESC,26385,elevated shell sudo event
+10.0.0.167,2026-11-08 22:15:00,PRIV_ESC,7105,elevated shell sudo event
+10.0.0.167,2026-11-25 03:28:00,PRIV_ESC,14859,elevated shell sudo event
+10.0.0.167,2026-11-30 01:50:20,PERSISTENCE,17262,new account 'admin_95'
+10.0.0.168,2026-11-18 20:20:20,PERSISTENCE,11809,new account 'admin_63'
+10.0.0.168,2026-11-27 19:39:20,PERSISTENCE,16166,new account 'admin_78'
+10.0.0.169,2026-12-01 18:06:00,PRIV_ESC,18081,elevated shell sudo event
+10.0.0.169,2026-12-17 04:59:00,PRIV_ESC,25573,elevated shell sudo event
+10.0.0.170,2026-10-29 22:06:00,PRIV_ESC,2292,elevated shell sudo event
+10.0.0.170,2026-12-17 16:02:42,RECON,25780,"4 connections, 4 distinct ports, 4 denied in 10m"
+10.0.0.170,2026-12-17 16:02:56,RECON,25781,"5 connections, 5 distinct ports, 5 denied in 10m"
+10.0.0.170,2026-12-17 16:03:10,RECON,25782,"6 connections, 6 distinct ports, 5 denied in 10m"
+10.0.0.170,2026-12-17 16:03:24,RECON,25783,"7 connections, 7 distinct ports, 5 denied in 10m"
+10.0.0.170,2026-12-17 16:03:38,RECON,25784,"8 connections, 8 distinct ports, 5 denied in 10m"
+10.0.0.171,2026-10-25 12:00:20,PERSISTENCE,229,new account 'admin_15'
+10.0.0.171,2026-10-25 13:07:00,PRIV_ESC,247,elevated shell sudo event
+10.0.0.171,2026-12-15 04:08:00,PRIV_ESC,24612,elevated shell sudo event
+10.0.0.171,2026-12-15 04:48:00,PRIV_ESC,24625,elevated shell sudo event
+10.0.0.171,2026-12-18 00:23:20,PERSISTENCE,25950,new account 'admin_43'
+10.0.0.172,2026-10-26 13:30:20,PERSISTENCE,700,new account 'admin_34'
+10.0.0.172,2026-11-29 00:43:00,PRIV_ESC,16770,elevated shell sudo event
+10.0.0.172,2026-12-03 10:29:45,RECON,18865,"4 connections, 4 distinct ports, 3 denied in 10m"
+10.0.0.172,2026-12-03 10:30:00,RECON,18866,"5 connections, 5 distinct ports, 4 denied in 10m"
+10.0.0.172,2026-12-03 10:30:15,RECON,18867,"6 connections, 6 distinct ports, 5 denied in 10m"
+10.0.0.172,2026-12-03 10:30:30,RECON,18868,"7 connections, 7 distinct ports, 6 denied in 10m"
+10.0.0.172,2026-12-03 10:30:45,RECON,18869,"8 connections, 8 distinct ports, 7 denied in 10m"
+10.0.0.172,2026-12-03 10:31:00,RECON,18870,"9 connections, 9 distinct ports, 7 denied in 10m"
+10.0.0.172,2026-12-05 14:41:20,PERSISTENCE,19921,new account 'admin_64'
+10.0.0.172,2026-12-08 03:47:00,PRIV_ESC,21132,elevated shell sudo event
+10.0.0.174,2026-11-10 01:57:00,PRIV_ESC,7631,elevated shell sudo event
+10.0.0.174,2026-12-06 22:10:00,PRIV_ESC,20546,elevated shell sudo event
+10.0.0.176,2026-11-02 17:56:00,PRIV_ESC,4147,elevated shell sudo event
+10.0.0.176,2026-11-07 05:36:20,PERSISTENCE,6284,new account 'admin_50'
+10.0.0.176,2026-12-08 15:55:20,PERSISTENCE,21417,new account 'admin_11'
+10.0.0.176,2026-12-11 09:47:00,PRIV_ESC,22738,elevated shell sudo event
+10.0.0.178,2026-10-27 13:51:20,PERSISTENCE,1193,new account 'admin_90'
+10.0.0.178,2026-10-30 17:01:20,PERSISTENCE,2697,new account 'admin_56'
+10.0.0.178,2026-12-05 03:34:20,PERSISTENCE,19717,new account 'admin_60'
+10.0.0.178,2026-12-16 20:50:00,PRIV_ESC,25422,elevated shell sudo event
+10.0.0.179,2026-11-09 15:05:50,CRED_ATTACK,7424,3 failed logins in 10m
+10.0.0.179,2026-11-09 15:06:15,CRED_ATTACK,7425,4 failed logins in 10m
+10.0.0.179,2026-11-09 15:07:05,COMPROMISE,7426,successful login after 4 failed logins in 15m
+10.0.0.179,2026-11-21 11:28:00,PRIV_ESC,13100,elevated shell sudo event
+10.0.0.179,2026-11-22 13:59:00,PRIV_ESC,13630,elevated shell sudo event
+10.0.0.179,2026-12-11 11:12:00,PRIV_ESC,22760,elevated shell sudo event
+10.0.0.180,2026-11-01 09:38:20,PERSISTENCE,3532,new account 'admin_79'
+10.0.0.180,2026-11-25 22:50:20,PERSISTENCE,15237,new account 'admin_50'
+10.0.0.180,2026-12-18 10:21:20,PERSISTENCE,26137,new account 'admin_57'
+10.0.0.181,2026-11-21 16:40:20,PERSISTENCE,13208,new account 'admin_75'
+10.0.0.181,2026-12-19 08:24:00,PRIV_ESC,26595,elevated shell sudo event
+10.0.0.183,2026-11-26 10:24:00,PRIV_ESC,15454,elevated shell sudo event
+10.0.0.184,2026-10-27 00:39:00,PRIV_ESC,921,elevated shell sudo event
+10.0.0.185,2026-10-25 04:05:00,PRIV_ESC,80,elevated shell sudo event
+10.0.0.185,2026-11-24 23:22:20,PERSISTENCE,14773,new account 'admin_60'
+10.0.0.185,2026-12-04 18:49:20,PERSISTENCE,19529,new account 'admin_86'
+10.0.0.186,2026-12-09 10:36:20,PERSISTENCE,21822,new account 'admin_94'
+10.0.0.186,2026-12-09 15:22:00,PRIV_ESC,21909,elevated shell sudo event
+10.0.0.187,2026-12-14 19:31:20,PERSISTENCE,24454,new account 'admin_27'
+10.0.0.187,2026-12-17 13:39:20,PERSISTENCE,25730,new account 'admin_62'
+10.0.0.188,2026-10-29 23:58:20,PERSISTENCE,2334,new account 'admin_75'
+10.0.0.188,2026-11-24 17:20:00,PRIV_ESC,14649,elevated shell sudo event
+10.0.0.189,2026-11-21 16:25:00,PRIV_ESC,13201,elevated shell sudo event
+10.0.0.189,2026-12-11 15:56:20,PERSISTENCE,22897,new account 'admin_95'
+10.0.0.190,2026-10-27 23:09:20,PERSISTENCE,1392,new account 'admin_40'
+10.0.0.190,2026-11-18 13:16:20,PERSISTENCE,11663,new account 'admin_94'
+10.0.0.191,2026-11-17 07:55:20,PERSISTENCE,11095,new account 'admin_72'
+10.0.0.191,2026-12-07 21:40:20,PERSISTENCE,21011,new account 'admin_12'
+10.0.0.191,2026-12-16 02:06:20,PERSISTENCE,25073,new account 'admin_15'
+10.0.0.192,2026-11-27 18:19:20,PERSISTENCE,16140,new account 'admin_68'
+10.0.0.192,2026-12-09 20:59:00,PRIV_ESC,22024,elevated shell sudo event
+10.0.0.192,2026-12-09 20:59:20,PERSISTENCE,22025,new account 'admin_25'
+10.0.0.194,2026-11-06 14:52:20,PERSISTENCE,5980,new account 'admin_90'
+10.0.0.194,2026-12-16 13:45:00,PRIV_ESC,25274,elevated shell sudo event
+10.0.0.194,2026-12-19 08:57:00,PRIV_ESC,26604,elevated shell sudo event
+10.0.0.195,2026-11-20 00:49:00,PRIV_ESC,12394,elevated shell sudo event
+10.0.0.195,2026-11-23 11:57:42,CRED_ATTACK,14054,3 failed logins in 10m
+10.0.0.195,2026-11-23 11:58:06,COMPROMISE,14055,successful login after 3 failed logins in 15m
+10.0.0.196,2026-11-17 13:39:00,PRIV_ESC,11201,elevated shell sudo event
+10.0.0.198,2026-10-31 12:55:20,PERSISTENCE,3085,new account 'admin_10'
+10.0.0.198,2026-11-03 18:48:00,PRIV_ESC,4618,elevated shell sudo event
+10.0.0.198,2026-11-19 15:31:45,RECON,12196,"4 connections, 4 distinct ports, 3 denied in 10m"
+10.0.0.198,2026-11-19 15:32:00,RECON,12197,"5 connections, 5 distinct ports, 4 denied in 10m"
+10.0.0.198,2026-11-19 15:32:15,RECON,12198,"6 connections, 6 distinct ports, 5 denied in 10m"
+10.0.0.198,2026-11-19 15:32:30,RECON,12199,"7 connections, 7 distinct ports, 5 denied in 10m"
+10.0.0.198,2026-11-19 15:32:45,RECON,12200,"8 connections, 8 distinct ports, 5 denied in 10m"
+10.0.0.199,2026-11-15 01:54:20,PERSISTENCE,10052,new account 'admin_96'
+10.0.0.199,2026-12-16 00:25:00,PRIV_ESC,25041,elevated shell sudo event
+10.0.0.199,2026-12-16 23:46:20,PERSISTENCE,25473,new account 'admin_55'
+10.0.0.20,2026-10-26 06:28:00,PRIV_ESC,585,elevated shell sudo event
+10.0.0.20,2026-10-26 19:00:20,PERSISTENCE,808,new account 'admin_23'
+10.0.0.20,2026-10-29 02:42:00,PRIV_ESC,1883,elevated shell sudo event
+10.0.0.20,2026-10-29 10:09:00,PRIV_ESC,2036,elevated shell sudo event
+10.0.0.20,2026-10-31 01:59:20,PERSISTENCE,2875,new account 'admin_72'
+10.0.0.20,2026-11-09 02:33:00,PRIV_ESC,7182,elevated shell sudo event
+10.0.0.20,2026-11-09 02:33:20,PERSISTENCE,7183,new account 'admin_81'
+10.0.0.20,2026-11-10 15:07:00,PRIV_ESC,7903,elevated shell sudo event
+10.0.0.20,2026-11-17 17:28:00,PRIV_ESC,11262,elevated shell sudo event
+10.0.0.20,2026-11-20 06:37:00,PRIV_ESC,12513,elevated shell sudo event
+10.0.0.20,2026-11-22 02:37:00,PRIV_ESC,13439,elevated shell sudo event
+10.0.0.20,2026-11-22 08:32:00,PRIV_ESC,13542,elevated shell sudo event
+10.0.0.20,2026-11-23 18:16:00,PRIV_ESC,14170,elevated shell sudo event
+10.0.0.20,2026-12-01 01:37:00,PRIV_ESC,17758,elevated shell sudo event
+10.0.0.20,2026-12-02 16:27:00,PRIV_ESC,18519,elevated shell sudo event
+10.0.0.20,2026-12-14 23:39:20,PERSISTENCE,24534,new account 'admin_71'
+10.0.0.20,2026-12-17 13:00:00,PRIV_ESC,25720,elevated shell sudo event
+10.0.0.200,2026-11-07 18:49:20,PERSISTENCE,6567,new account 'admin_58'
+10.0.0.200,2026-11-09 16:52:00,PRIV_ESC,7458,elevated shell sudo event
+10.0.0.200,2026-11-14 16:39:00,PRIV_ESC,9854,elevated shell sudo event
+10.0.0.200,2026-11-15 23:15:00,PRIV_ESC,10455,elevated shell sudo event
+10.0.0.200,2026-11-21 08:53:00,PRIV_ESC,13057,elevated shell sudo event
+10.0.0.200,2026-12-01 05:54:20,PERSISTENCE,17844,new account 'admin_45'
+10.0.0.201,2026-11-27 11:52:00,PRIV_ESC,15972,elevated shell sudo event
+10.0.0.201,2026-12-08 09:08:20,PERSISTENCE,21238,new account 'admin_56'
+10.0.0.201,2026-12-16 08:01:00,PRIV_ESC,25177,elevated shell sudo event
+10.0.0.202,2026-11-08 16:15:00,PRIV_ESC,6978,elevated shell sudo event
+10.0.0.202,2026-12-16 18:04:00,PRIV_ESC,25370,elevated shell sudo event
+10.0.0.203,2026-10-29 09:14:00,PRIV_ESC,2016,elevated shell sudo event
+10.0.0.203,2026-10-30 08:07:20,PERSISTENCE,2491,new account 'admin_23'
+10.0.0.203,2026-11-15 14:58:00,PRIV_ESC,10295,elevated shell sudo event
+10.0.0.203,2026-12-06 18:56:00,PRIV_ESC,20489,elevated shell sudo event
+10.0.0.203,2026-12-06 18:56:20,PERSISTENCE,20490,new account 'admin_82'
+10.0.0.205,2026-11-12 16:06:20,PERSISTENCE,8887,new account 'admin_73'
+10.0.0.205,2026-11-17 05:20:00,PRIV_ESC,11037,elevated shell sudo event
+10.0.0.205,2026-11-18 15:24:20,PERSISTENCE,11704,new account 'admin_57'
+10.0.0.206,2026-11-09 03:21:20,PERSISTENCE,7203,new account 'admin_32'
+10.0.0.206,2026-12-03 02:12:00,PRIV_ESC,18702,elevated shell sudo event
+10.0.0.207,2026-10-28 17:10:00,PRIV_ESC,1719,elevated shell sudo event
+10.0.0.208,2026-11-04 13:44:00,PRIV_ESC,4988,elevated shell sudo event
+10.0.0.208,2026-11-11 17:21:00,PRIV_ESC,8440,elevated shell sudo event
+10.0.0.208,2026-11-16 03:47:20,PERSISTENCE,10555,new account 'admin_51'
+10.0.0.208,2026-11-16 08:15:00,PRIV_ESC,10629,elevated shell sudo event
+10.0.0.209,2026-12-10 07:14:00,PRIV_ESC,22203,elevated shell sudo event
+10.0.0.210,2026-11-19 12:16:00,PRIV_ESC,12130,elevated shell sudo event
+10.0.0.211,2026-12-05 17:38:00,PRIV_ESC,19979,elevated shell sudo event
+10.0.0.211,2026-12-05 17:59:20,PERSISTENCE,19987,new account 'admin_36'
+10.0.0.213,2026-10-29 03:43:00,PRIV_ESC,1902,elevated shell sudo event
+10.0.0.213,2026-11-02 11:25:20,PERSISTENCE,4017,new account 'admin_93'
+10.0.0.213,2026-11-19 04:10:00,PRIV_ESC,11959,elevated shell sudo event
+10.0.0.214,2026-11-17 05:39:00,PRIV_ESC,11044,elevated shell sudo event
+10.0.0.215,2026-11-06 18:12:20,PERSISTENCE,6063,new account 'admin_52'
+10.0.0.215,2026-11-08 08:08:00,PRIV_ESC,6816,elevated shell sudo event
+10.0.0.215,2026-11-18 16:46:00,PRIV_ESC,11734,elevated shell sudo event
+10.0.0.215,2026-11-26 11:30:20,PERSISTENCE,15477,new account 'admin_56'
+10.0.0.216,2026-10-30 06:58:00,PRIV_ESC,2463,elevated shell sudo event
+10.0.0.216,2026-11-01 10:01:20,PERSISTENCE,3541,new account 'admin_87'
+10.0.0.216,2026-12-07 14:39:20,PERSISTENCE,20856,new account 'admin_57'
+10.0.0.217,2026-10-29 22:48:00,PRIV_ESC,2306,elevated shell sudo event
+10.0.0.217,2026-10-29 22:48:20,PERSISTENCE,2307,new account 'admin_78'
+10.0.0.217,2026-11-09 11:28:20,PERSISTENCE,7353,new account 'admin_68'
+10.0.0.217,2026-11-14 15:35:00,PRIV_ESC,9832,elevated shell sudo event
+10.0.0.217,2026-11-16 07:01:00,PRIV_ESC,10614,elevated shell sudo event
+10.0.0.217,2026-12-08 15:03:20,PERSISTENCE,21380,new account 'admin_56'
+10.0.0.218,2026-11-08 09:51:00,PRIV_ESC,6855,elevated shell sudo event
+10.0.0.218,2026-11-08 09:51:20,PERSISTENCE,6856,new account 'admin_10'
+10.0.0.218,2026-11-12 06:22:00,PRIV_ESC,8693,elevated shell sudo event
+10.0.0.218,2026-11-30 12:38:00,PRIV_ESC,17481,elevated shell sudo event
+10.0.0.218,2026-11-30 12:38:20,PERSISTENCE,17482,new account 'admin_37'
+10.0.0.218,2026-11-30 16:14:00,PRIV_ESC,17551,elevated shell sudo event
+10.0.0.218,2026-11-30 16:14:20,PERSISTENCE,17552,new account 'admin_50'
+10.0.0.219,2026-12-05 02:13:00,PRIV_ESC,19685,elevated shell sudo event
+10.0.0.219,2026-12-14 10:16:38,CRED_ATTACK,24259,3 failed logins in 10m
+10.0.0.219,2026-12-14 10:16:57,CRED_ATTACK,24260,4 failed logins in 10m
+10.0.0.219,2026-12-14 10:17:42,COMPROMISE,24261,successful login after 4 failed logins in 15m
+10.0.0.220,2026-11-07 22:57:00,PRIV_ESC,6641,elevated shell sudo event
+10.0.0.30,2026-10-25 01:27:00,PRIV_ESC,24,elevated shell sudo event
+10.0.0.30,2026-11-03 16:04:20,PERSISTENCE,4564,new account 'admin_69'
+10.0.0.30,2026-11-15 09:59:00,PRIV_ESC,10210,elevated shell sudo event
+10.0.0.30,2026-11-27 01:19:00,PRIV_ESC,15756,elevated shell sudo event
+10.0.0.30,2026-11-29 18:43:00,PRIV_ESC,17129,elevated shell sudo event
+10.0.0.30,2026-12-10 04:42:00,PRIV_ESC,22153,elevated shell sudo event
+10.0.0.30,2026-12-10 05:30:00,PRIV_ESC,22167,elevated shell sudo event
+10.0.0.30,2026-12-10 16:57:00,PRIV_ESC,22410,elevated shell sudo event
+10.0.0.30,2026-12-11 19:54:00,PRIV_ESC,22977,elevated shell sudo event
+10.0.0.30,2026-12-12 03:27:20,PERSISTENCE,23124,new account 'admin_51'
+10.0.0.30,2026-12-14 03:13:00,PRIV_ESC,24125,elevated shell sudo event
+10.0.0.30,2026-12-15 05:22:00,PRIV_ESC,24641,elevated shell sudo event
+10.0.0.30,2026-12-18 11:07:00,PRIV_ESC,26153,elevated shell sudo event
+10.0.0.40,2026-11-05 00:16:00,PRIV_ESC,5193,elevated shell sudo event
+10.0.0.40,2026-11-05 03:11:20,PERSISTENCE,5247,new account 'admin_69'
+10.0.0.40,2026-12-01 06:25:20,PERSISTENCE,17855,new account 'admin_58'
+10.0.0.41,2026-11-04 04:04:00,PRIV_ESC,4805,elevated shell sudo event
+10.0.0.41,2026-11-24 07:57:00,PRIV_ESC,14440,elevated shell sudo event
+10.0.0.41,2026-12-12 12:12:20,PERSISTENCE,23289,new account 'admin_61'
+10.0.0.42,2026-11-27 11:38:20,PERSISTENCE,15968,new account 'admin_68'
+10.0.0.43,2026-12-19 17:13:00,PRIV_ESC,26785,elevated shell sudo event
+10.0.0.44,2026-11-27 04:10:00,PRIV_ESC,15810,elevated shell sudo event
+10.0.0.44,2026-11-27 04:56:20,PERSISTENCE,15832,new account 'admin_63'
+10.0.0.44,2026-12-05 10:23:00,PRIV_ESC,19829,elevated shell sudo event
+10.0.0.45,2026-11-24 20:37:20,PERSISTENCE,14713,new account 'admin_20'
+10.0.0.45,2026-11-24 22:22:00,PRIV_ESC,14748,elevated shell sudo event
+10.0.0.46,2026-12-04 11:28:20,PERSISTENCE,19346,new account 'admin_22'
+10.0.0.46,2026-12-19 11:50:00,PRIV_ESC,26659,elevated shell sudo event
+10.0.0.47,2026-11-11 07:00:20,PERSISTENCE,8224,new account 'admin_42'
+10.0.0.47,2026-11-21 17:01:00,PRIV_ESC,13216,elevated shell sudo event
+10.0.0.47,2026-11-21 17:01:20,PERSISTENCE,13217,new account 'admin_12'
+10.0.0.47,2026-11-24 10:15:00,PRIV_ESC,14492,elevated shell sudo event
+10.0.0.47,2026-11-25 00:09:00,PRIV_ESC,14790,elevated shell sudo event
+10.0.0.47,2026-11-25 04:49:20,PERSISTENCE,14886,new account 'admin_48'
+10.0.0.47,2026-11-26 06:22:20,PERSISTENCE,15381,new account 'admin_48'
+10.0.0.47,2026-12-04 01:04:00,PRIV_ESC,19144,elevated shell sudo event
+10.0.0.47,2026-12-05 01:44:00,PRIV_ESC,19673,elevated shell sudo event
+10.0.0.47,2026-12-05 07:22:00,PRIV_ESC,19775,elevated shell sudo event
+10.0.0.47,2026-12-17 05:06:00,PRIV_ESC,25576,elevated shell sudo event
+10.0.0.49,2026-12-02 23:34:20,PERSISTENCE,18646,new account 'admin_11'
+10.0.0.50,2026-11-28 18:28:20,PERSISTENCE,16645,new account 'admin_32'
+10.0.0.50,2026-11-28 18:32:00,PRIV_ESC,16649,elevated shell sudo event
+10.0.0.51,2026-11-01 21:03:20,PERSISTENCE,3748,new account 'admin_73'
+10.0.0.51,2026-11-02 01:16:00,PRIV_ESC,3837,elevated shell sudo event
+10.0.0.51,2026-11-11 17:33:00,PRIV_ESC,8446,elevated shell sudo event
+10.0.0.51,2026-11-11 18:31:00,PRIV_ESC,8472,elevated shell sudo event
+10.0.0.51,2026-11-27 02:51:00,PRIV_ESC,15787,elevated shell sudo event
+10.0.0.51,2026-12-01 03:56:20,PERSISTENCE,17810,new account 'admin_36'
+10.0.0.51,2026-12-10 14:27:00,PRIV_ESC,22359,elevated shell sudo event
+10.0.0.51,2026-12-13 03:39:20,PERSISTENCE,23624,new account 'admin_26'
+10.0.0.52,2026-10-30 14:09:00,PRIV_ESC,2644,elevated shell sudo event
+10.0.0.52,2026-11-13 06:43:00,PRIV_ESC,9162,elevated shell sudo event
+10.0.0.52,2026-11-13 09:55:00,PRIV_ESC,9232,elevated shell sudo event
+10.0.0.52,2026-11-13 09:55:20,PERSISTENCE,9233,new account 'admin_18'
+10.0.0.52,2026-11-27 20:02:00,PRIV_ESC,16171,elevated shell sudo event
+10.0.0.52,2026-12-08 16:36:00,PRIV_ESC,21440,elevated shell sudo event
+10.0.0.53,2026-11-05 01:11:20,PERSISTENCE,5211,new account 'admin_70'
+10.0.0.54,2026-10-29 11:33:20,PERSISTENCE,2066,new account 'admin_62'
+10.0.0.54,2026-11-08 02:52:00,PRIV_ESC,6721,elevated shell sudo event
+10.0.0.54,2026-11-08 02:52:20,PERSISTENCE,6722,new account 'admin_87'
+10.0.0.54,2026-12-10 22:52:20,PERSISTENCE,22532,new account 'admin_92'
+10.0.0.54,2026-12-17 05:02:00,PRIV_ESC,25574,elevated shell sudo event
+10.0.0.55,2026-11-03 22:01:00,PRIV_ESC,4678,elevated shell sudo event
+10.0.0.55,2026-11-04 05:42:20,PERSISTENCE,4836,new account 'admin_85'
+10.0.0.55,2026-11-08 19:43:00,PRIV_ESC,7053,elevated shell sudo event
+10.0.0.55,2026-11-08 20:29:20,PERSISTENCE,7074,new account 'admin_74'
+10.0.0.55,2026-11-10 15:48:00,PRIV_ESC,7921,elevated shell sudo event
+10.0.0.55,2026-12-16 04:38:20,PERSISTENCE,25117,new account 'admin_41'
+10.0.0.56,2026-12-04 01:14:20,PERSISTENCE,19149,new account 'admin_64'
+10.0.0.56,2026-12-13 04:32:20,PERSISTENCE,23642,new account 'admin_23'
+10.0.0.56,2026-12-16 17:03:00,PRIV_ESC,25348,elevated shell sudo event
+10.0.0.57,2026-10-28 11:34:20,PERSISTENCE,1620,new account 'admin_72'
+10.0.0.57,2026-11-20 04:45:00,PRIV_ESC,12470,elevated shell sudo event
+10.0.0.57,2026-11-23 18:33:00,PRIV_ESC,14173,elevated shell sudo event
+10.0.0.58,2026-11-07 11:30:00,PRIV_ESC,6394,elevated shell sudo event
+10.0.0.58,2026-11-08 10:23:00,PRIV_ESC,6868,elevated shell sudo event
+10.0.0.58,2026-12-03 14:52:00,PRIV_ESC,18943,elevated shell sudo event
+10.0.0.58,2026-12-13 04:02:00,PRIV_ESC,23632,elevated shell sudo event
+10.0.0.58,2026-12-13 04:02:20,PERSISTENCE,23633,new account 'admin_64'
+10.0.0.59,2026-11-16 15:29:45,COMPROMISE,10779,successful login after 2 failed logins in 15m
+10.0.0.59,2026-11-29 12:28:00,PRIV_ESC,17011,elevated shell sudo event
+10.0.0.60,2026-11-04 11:15:00,PRIV_ESC,4938,elevated shell sudo event
+10.0.0.60,2026-11-28 21:27:00,PRIV_ESC,16707,elevated shell sudo event
+10.0.0.61,2026-10-27 21:46:00,PRIV_ESC,1368,elevated shell sudo event
+10.0.0.61,2026-11-10 14:57:00,PRIV_ESC,7899,elevated shell sudo event
+10.0.0.61,2026-12-10 01:37:00,PRIV_ESC,22100,elevated shell sudo event
+10.0.0.62,2026-10-28 08:32:20,PERSISTENCE,1558,new account 'admin_64'
+10.0.0.63,2026-11-13 03:54:00,PRIV_ESC,9115,elevated shell sudo event
+10.0.0.63,2026-12-11 00:16:20,PERSISTENCE,22554,new account 'admin_30'
+10.0.0.64,2026-11-25 13:27:20,PERSISTENCE,15067,new account 'admin_97'
+10.0.0.65,2026-11-06 02:00:20,PERSISTENCE,5698,new account 'admin_36'
+10.0.0.65,2026-12-12 23:45:20,PERSISTENCE,23541,new account 'admin_78'
+10.0.0.66,2026-10-26 08:08:23,CRED_ATTACK,614,3 failed logins in 10m
+10.0.0.66,2026-10-26 08:09:19,COMPROMISE,615,successful login after 2 failed logins in 15m
+10.0.0.66,2026-12-12 07:28:20,PERSISTENCE,23199,new account 'admin_45'
+10.0.0.67,2026-11-27 09:03:00,PRIV_ESC,15910,elevated shell sudo event
+10.0.0.68,2026-12-14 04:31:20,PERSISTENCE,24156,new account 'admin_72'
+10.0.0.69,2026-11-20 05:25:00,PRIV_ESC,12484,elevated shell sudo event
+10.0.0.69,2026-12-01 02:10:00,PRIV_ESC,17767,elevated shell sudo event
+10.0.0.69,2026-12-01 02:15:00,PRIV_ESC,17771,elevated shell sudo event
+10.0.0.69,2026-12-01 22:27:20,PERSISTENCE,18167,new account 'admin_49'
+10.0.0.71,2026-12-08 03:59:00,PRIV_ESC,21136,elevated shell sudo event
+10.0.0.72,2026-10-30 10:18:20,PERSISTENCE,2533,new account 'admin_63'
+10.0.0.73,2026-10-28 21:56:00,PRIV_ESC,1800,elevated shell sudo event
+10.0.0.73,2026-11-07 21:16:20,PERSISTENCE,6612,new account 'admin_81'
+10.0.0.73,2026-11-13 01:38:00,PRIV_ESC,9072,elevated shell sudo event
+10.0.0.73,2026-12-17 18:28:00,PRIV_ESC,25835,elevated shell sudo event
+10.0.0.74,2026-11-21 04:37:20,PERSISTENCE,12986,new account 'admin_57'
+10.0.0.75,2026-11-26 22:18:20,PERSISTENCE,15689,new account 'admin_31'
+10.0.0.75,2026-11-30 13:38:04,COMPROMISE,17505,successful login after 2 failed logins in 15m
+10.0.0.75,2026-12-10 15:16:00,PRIV_ESC,22374,elevated shell sudo event
+10.0.0.76,2026-11-26 12:03:36,RECON,15492,"4 connections, 4 distinct ports, 2 denied in 10m"
+10.0.0.76,2026-11-26 12:03:48,RECON,15493,"5 connections, 5 distinct ports, 3 denied in 10m"
+10.0.0.76,2026-11-26 12:04:00,RECON,15494,"6 connections, 6 distinct ports, 4 denied in 10m"
+10.0.0.76,2026-12-02 03:31:00,PRIV_ESC,18266,elevated shell sudo event
+10.0.0.76,2026-12-05 02:28:20,PERSISTENCE,19692,new account 'admin_93'
+10.0.0.76,2026-12-08 05:34:20,PERSISTENCE,21166,new account 'admin_90'
+10.0.0.76,2026-12-08 08:06:20,PERSISTENCE,21213,new account 'admin_71'
+10.0.0.76,2026-12-16 00:36:00,PRIV_ESC,25045,elevated shell sudo event
+10.0.0.77,2026-11-04 05:53:20,PERSISTENCE,4842,new account 'admin_58'
+10.0.0.77,2026-11-30 17:34:00,PRIV_ESC,17579,elevated shell sudo event
+10.0.0.77,2026-12-05 18:09:00,PRIV_ESC,20025,elevated shell sudo event
+10.0.0.77,2026-12-05 18:12:00,PERSISTENCE,20026,new account 'service_40'
+10.0.0.78,2026-10-25 02:40:20,PERSISTENCE,47,new account 'admin_79'
+10.0.0.78,2026-11-04 01:02:00,PRIV_ESC,4738,elevated shell sudo event
+10.0.0.78,2026-11-04 01:02:20,PERSISTENCE,4739,new account 'admin_66'
+10.0.0.78,2026-12-06 20:59:00,PRIV_ESC,20525,elevated shell sudo event
+10.0.0.78,2026-12-13 13:26:00,PRIV_ESC,23839,elevated shell sudo event
+10.0.0.79,2026-10-26 15:13:20,PERSISTENCE,737,new account 'admin_20'
+10.0.0.80,2026-11-01 07:51:00,PRIV_ESC,3493,elevated shell sudo event
+10.0.0.80,2026-12-02 10:47:20,PERSISTENCE,18420,new account 'admin_35'
+10.0.0.81,2026-11-02 00:41:00,PRIV_ESC,3822,elevated shell sudo event
+10.0.0.81,2026-11-02 00:41:20,PERSISTENCE,3823,new account 'admin_22'
+10.0.0.81,2026-11-17 17:27:00,PRIV_ESC,11261,elevated shell sudo event
+10.0.0.81,2026-12-02 12:27:00,PRIV_ESC,18449,elevated shell sudo event
+10.0.0.82,2026-12-17 16:45:00,PRIV_ESC,25804,elevated shell sudo event
+10.0.0.83,2026-10-26 12:52:00,PRIV_ESC,686,elevated shell sudo event
+10.0.0.83,2026-11-12 12:47:39,RECON,8829,"4 connections, 4 distinct ports, 3 denied in 10m"
+10.0.0.83,2026-11-12 12:47:52,RECON,8830,"5 connections, 5 distinct ports, 3 denied in 10m"
+10.0.0.83,2026-11-12 12:48:05,RECON,8831,"6 connections, 6 distinct ports, 4 denied in 10m"
+10.0.0.83,2026-12-07 20:20:20,PERSISTENCE,20989,new account 'admin_72'
+10.0.0.85,2026-10-29 10:12:20,PERSISTENCE,2038,new account 'admin_50'
+10.0.0.85,2026-12-07 08:12:50,CRED_ATTACK,20733,3 failed logins in 10m
+10.0.0.85,2026-12-07 08:13:30,COMPROMISE,20734,successful login after 3 failed logins in 15m
+10.0.0.87,2026-10-26 01:06:20,PERSISTENCE,480,new account 'admin_78'
+10.0.0.87,2026-10-26 02:55:20,PERSISTENCE,509,new account 'admin_48'
+10.0.0.87,2026-11-05 16:38:00,PRIV_ESC,5534,elevated shell sudo event
+10.0.0.87,2026-12-14 11:48:20,PERSISTENCE,24289,new account 'admin_45'
+10.0.0.87,2026-12-14 14:27:00,PRIV_ESC,24351,elevated shell sudo event
+10.0.0.87,2026-12-14 14:36:00,PRIV_ESC,24356,elevated shell sudo event
+10.0.0.87,2026-12-14 16:16:00,PRIV_ESC,24382,elevated shell sudo event
+10.0.0.88,2026-10-27 15:44:20,PERSISTENCE,1230,new account 'admin_45'
+10.0.0.88,2026-11-09 04:27:00,PRIV_ESC,7223,elevated shell sudo event
+10.0.0.88,2026-11-16 16:18:00,PRIV_ESC,10789,elevated shell sudo event
+10.0.0.88,2026-12-10 16:51:20,PERSISTENCE,22408,new account 'admin_61'
+10.0.0.89,2026-10-28 01:55:00,PRIV_ESC,1443,elevated shell sudo event
+10.0.0.89,2026-10-28 01:56:00,PRIV_ESC,1444,elevated shell sudo event
+10.0.0.89,2026-10-28 01:56:20,PERSISTENCE,1445,new account 'admin_92'
+10.0.0.89,2026-11-06 20:47:00,PRIV_ESC,6112,elevated shell sudo event
+10.0.0.90,2026-11-13 18:24:00,PRIV_ESC,9429,elevated shell sudo event
+10.0.0.90,2026-11-29 22:24:00,PRIV_ESC,17201,elevated shell sudo event
+10.0.0.90,2026-11-29 22:24:20,PERSISTENCE,17202,new account 'admin_35'
+10.0.0.90,2026-12-02 18:49:20,PERSISTENCE,18555,new account 'admin_89'
+10.0.0.90,2026-12-14 01:10:00,PRIV_ESC,24082,elevated shell sudo event
+10.0.0.91,2026-10-27 10:00:20,PERSISTENCE,1119,new account 'admin_70'
+10.0.0.92,2026-12-01 04:23:00,PRIV_ESC,17815,elevated shell sudo event
+10.0.0.92,2026-12-08 00:06:20,PERSISTENCE,21063,new account 'admin_66'
+10.0.0.93,2026-11-23 02:12:20,PERSISTENCE,13871,new account 'admin_12'
+10.0.0.93,2026-12-03 18:32:00,PRIV_ESC,19019,elevated shell sudo event
+10.0.0.94,2026-12-09 11:52:00,PRIV_ESC,21848,elevated shell sudo event
+10.0.0.94,2026-12-14 20:45:00,PRIV_ESC,24478,elevated shell sudo event
+10.0.0.94,2026-12-16 05:42:00,PRIV_ESC,25133,elevated shell sudo event
+10.0.0.95,2026-11-23 04:49:00,PRIV_ESC,13920,elevated shell sudo event
+10.0.0.95,2026-12-19 22:48:00,PRIV_ESC,26933,elevated shell sudo event
+10.0.0.96,2026-11-05 09:05:45,RECON,5373,"4 connections, 4 distinct ports, 4 denied in 10m"
+10.0.0.96,2026-11-05 09:06:00,RECON,5374,"5 connections, 5 distinct ports, 4 denied in 10m"
+10.0.0.96,2026-11-05 09:06:15,RECON,5375,"6 connections, 6 distinct ports, 5 denied in 10m"
+10.0.0.96,2026-11-05 09:06:30,RECON,5376,"7 connections, 7 distinct ports, 5 denied in 10m"
+10.0.0.96,2026-11-05 09:06:45,RECON,5377,"8 connections, 8 distinct ports, 5 denied in 10m"
+10.0.0.96,2026-11-06 11:50:20,PERSISTENCE,5885,new account 'admin_34'
+10.0.0.96,2026-11-06 12:32:00,PRIV_ESC,5899,elevated shell sudo event
+10.0.0.96,2026-11-21 08:37:20,PERSISTENCE,13052,new account 'admin_23'
+10.0.0.96,2026-11-21 22:30:20,PERSISTENCE,13367,new account 'admin_43'
+10.0.0.96,2026-12-12 07:06:20,PERSISTENCE,23191,new account 'admin_29'
+10.0.0.97,2026-11-29 03:58:00,PRIV_ESC,16836,elevated shell sudo event
+10.0.0.97,2026-12-15 00:02:20,PERSISTENCE,24543,new account 'admin_36'
+10.0.0.97,2026-12-15 08:54:00,PRIV_ESC,24708,elevated shell sudo event
+10.0.0.97,2026-12-15 13:57:00,PRIV_ESC,24815,elevated shell sudo event
+10.0.0.97,2026-12-15 13:57:20,PERSISTENCE,24817,new account 'admin_90'
+10.0.0.98,2026-11-04 01:10:20,PERSISTENCE,4742,new account 'admin_48'
+10.0.0.98,2026-11-30 17:28:20,PERSISTENCE,17576,new account 'admin_70'
+10.0.0.99,2026-11-26 15:22:00,PRIV_ESC,15568,elevated shell sudo event
+10.0.0.99,2026-11-27 02:35:00,PRIV_ESC,15783,elevated shell sudo event
+10.0.0.99,2026-12-17 22:36:00,PRIV_ESC,25916,elevated shell sudo event
+192.0.2.133,2026-11-14 18:00:12,RECON,9882,"4 connections, 4 distinct ports, 4 denied in 10m"
+192.0.2.133,2026-11-14 18:00:16,RECON,9883,"5 connections, 5 distinct ports, 5 denied in 10m"
+192.0.2.133,2026-11-14 18:00:20,RECON,9884,"6 connections, 6 distinct ports, 6 denied in 10m"
+192.0.2.133,2026-11-14 18:00:24,RECON,9885,"7 connections, 7 distinct ports, 7 denied in 10m"
+192.0.2.133,2026-11-14 18:00:28,RECON,9886,"8 connections, 8 distinct ports, 8 denied in 10m"
+192.0.2.133,2026-11-14 18:00:32,RECON,9887,"9 connections, 9 distinct ports, 9 denied in 10m"
+192.0.2.133,2026-11-14 18:00:36,RECON,9888,"10 connections, 10 distinct ports, 10 denied in 10m"
+192.0.2.133,2026-11-14 18:00:40,RECON,9889,"11 connections, 11 distinct ports, 11 denied in 10m"
+192.0.2.133,2026-11-14 18:00:44,RECON,9890,"12 connections, 12 distinct ports, 12 denied in 10m"
+192.0.2.133,2026-11-14 18:00:48,RECON,9891,"13 connections, 13 distinct ports, 13 denied in 10m"
+192.0.2.133,2026-11-14 18:00:52,RECON,9892,"14 connections, 14 distinct ports, 14 denied in 10m"
+192.0.2.133,2026-11-14 18:00:56,RECON,9893,"15 connections, 15 distinct ports, 15 denied in 10m"
+192.0.2.133,2026-11-14 18:01:00,RECON,9894,"16 connections, 16 distinct ports, 16 denied in 10m"
+192.0.2.133,2026-11-14 18:03:10,CRED_ATTACK,9897,3 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:15,CRED_ATTACK,9898,4 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:20,CRED_ATTACK,9899,5 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:25,CRED_ATTACK,9900,6 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:30,CRED_ATTACK,9901,7 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:35,CRED_ATTACK,9902,8 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:40,CRED_ATTACK,9903,9 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:45,CRED_ATTACK,9904,10 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:50,CRED_ATTACK,9905,11 failed logins in 10m
+192.0.2.133,2026-11-14 18:03:55,CRED_ATTACK,9906,12 failed logins in 10m
+192.0.2.133,2026-11-14 18:04:00,CRED_ATTACK,9908,13 failed logins in 10m
+192.0.2.133,2026-11-14 18:04:05,CRED_ATTACK,9909,14 failed logins in 10m
+192.0.2.133,2026-11-14 18:04:10,CRED_ATTACK,9910,15 failed logins in 10m
+192.0.2.133,2026-11-14 18:04:15,CRED_ATTACK,9911,16 failed logins in 10m
+192.0.2.133,2026-11-14 18:04:20,CRED_ATTACK,9912,17 failed logins in 10m
+192.0.2.133,2026-11-14 18:04:25,CRED_ATTACK,9913,18 failed logins in 10m
+192.0.2.133,2026-11-14 18:05:00,COMPROMISE,9914,successful login after 18 failed logins in 15m
+192.0.2.133,2026-11-14 18:09:00,PRIV_ESC,9918,elevated shell sudo event
+192.0.2.133,2026-11-14 18:12:00,PERSISTENCE,9921,new account 'service_12'
+192.0.2.139,2026-11-21 18:00:12,RECON,13240,"4 connections, 4 distinct ports, 4 denied in 10m"
+192.0.2.139,2026-11-21 18:00:16,RECON,13241,"5 connections, 5 distinct ports, 5 denied in 10m"
+192.0.2.139,2026-11-21 18:00:20,RECON,13242,"6 connections, 6 distinct ports, 6 denied in 10m"
+192.0.2.139,2026-11-21 18:00:24,RECON,13243,"7 connections, 7 distinct ports, 7 denied in 10m"
+192.0.2.139,2026-11-21 18:00:28,RECON,13244,"8 connections, 8 distinct ports, 8 denied in 10m"
+192.0.2.139,2026-11-21 18:00:32,RECON,13245,"9 connections, 9 distinct ports, 9 denied in 10m"
+192.0.2.139,2026-11-21 18:00:36,RECON,13246,"10 connections, 10 distinct ports, 10 denied in 10m"
+192.0.2.139,2026-11-21 18:00:40,RECON,13247,"11 connections, 11 distinct ports, 11 denied in 10m"
+192.0.2.139,2026-11-21 18:00:44,RECON,13248,"12 connections, 12 distinct ports, 12 denied in 10m"
+192.0.2.139,2026-11-21 18:00:48,RECON,13249,"13 connections, 13 distinct ports, 13 denied in 10m"
+192.0.2.139,2026-11-21 18:00:52,RECON,13250,"14 connections, 14 distinct ports, 14 denied in 10m"
+192.0.2.139,2026-11-21 18:00:56,RECON,13251,"15 connections, 15 distinct ports, 15 denied in 10m"
+192.0.2.139,2026-11-21 18:01:00,RECON,13252,"16 connections, 16 distinct ports, 16 denied in 10m"
+192.0.2.139,2026-11-21 18:03:10,CRED_ATTACK,13255,3 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:15,CRED_ATTACK,13256,4 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:20,CRED_ATTACK,13257,5 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:25,CRED_ATTACK,13258,6 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:30,CRED_ATTACK,13259,7 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:35,CRED_ATTACK,13260,8 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:40,CRED_ATTACK,13261,9 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:45,CRED_ATTACK,13262,10 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:50,CRED_ATTACK,13263,11 failed logins in 10m
+192.0.2.139,2026-11-21 18:03:55,CRED_ATTACK,13264,12 failed logins in 10m
+192.0.2.139,2026-11-21 18:04:00,CRED_ATTACK,13266,13 failed logins in 10m
+192.0.2.139,2026-11-21 18:04:05,CRED_ATTACK,13267,14 failed logins in 10m
+192.0.2.139,2026-11-21 18:04:10,CRED_ATTACK,13268,15 failed logins in 10m
+192.0.2.139,2026-11-21 18:04:15,CRED_ATTACK,13269,16 failed logins in 10m
+192.0.2.139,2026-11-21 18:04:20,CRED_ATTACK,13270,17 failed logins in 10m
+192.0.2.139,2026-11-21 18:04:25,CRED_ATTACK,13271,18 failed logins in 10m
+192.0.2.139,2026-11-21 18:05:00,COMPROMISE,13272,successful login after 18 failed logins in 15m
+192.0.2.139,2026-11-21 18:09:00,PRIV_ESC,13276,elevated shell sudo event
+192.0.2.139,2026-11-21 18:12:00,PERSISTENCE,13278,new account 'service_18'
+192.0.2.146,2026-11-13 13:00:12,RECON,9295,"4 connections, 4 distinct ports, 4 denied in 10m"
+192.0.2.146,2026-11-13 13:00:16,RECON,9296,"5 connections, 5 distinct ports, 5 denied in 10m"
+192.0.2.146,2026-11-13 13:00:20,RECON,9297,"6 connections, 6 distinct ports, 6 denied in 10m"
+192.0.2.146,2026-11-13 13:00:24,RECON,9298,"7 connections, 7 distinct ports, 7 denied in 10m"
+192.0.2.146,2026-11-13 13:00:28,RECON,9299,"8 connections, 8 distinct ports, 8 denied in 10m"
+192.0.2.146,2026-11-13 13:00:32,RECON,9300,"9 connections, 9 distinct ports, 9 denied in 10m"
+192.0.2.146,2026-11-13 13:00:36,RECON,9301,"10 connections, 10 distinct ports, 10 denied in 10m"
+192.0.2.146,2026-11-13 13:00:40,RECON,9302,"11 connections, 11 distinct ports, 11 denied in 10m"
+192.0.2.146,2026-11-13 13:00:44,RECON,9303,"12 connections, 12 distinct ports, 12 denied in 10m"
+192.0.2.146,2026-11-13 13:00:48,RECON,9304,"13 connections, 13 distinct ports, 13 denied in 10m"
+192.0.2.146,2026-11-13 13:00:52,RECON,9305,"14 connections, 14 distinct ports, 14 denied in 10m"
+192.0.2.146,2026-11-13 13:03:10,CRED_ATTACK,9309,3 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:15,CRED_ATTACK,9310,4 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:20,CRED_ATTACK,9311,5 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:25,CRED_ATTACK,9312,6 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:30,CRED_ATTACK,9313,7 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:35,CRED_ATTACK,9314,8 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:40,CRED_ATTACK,9315,9 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:45,CRED_ATTACK,9316,10 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:50,CRED_ATTACK,9317,11 failed logins in 10m
+192.0.2.146,2026-11-13 13:03:55,CRED_ATTACK,9318,12 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:00,CRED_ATTACK,9319,13 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:05,CRED_ATTACK,9320,14 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:10,CRED_ATTACK,9321,15 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:15,CRED_ATTACK,9322,16 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:20,CRED_ATTACK,9323,17 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:25,CRED_ATTACK,9324,18 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:30,CRED_ATTACK,9325,19 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:35,CRED_ATTACK,9326,20 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:40,CRED_ATTACK,9327,21 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:45,CRED_ATTACK,9328,22 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:50,CRED_ATTACK,9329,23 failed logins in 10m
+192.0.2.146,2026-11-13 13:04:55,CRED_ATTACK,9330,24 failed logins in 10m
+192.0.2.146,2026-11-13 13:05:00,CRED_ATTACK,9332,25 failed logins in 10m
+192.0.2.146,2026-11-13 13:05:05,CRED_ATTACK,9333,26 failed logins in 10m
+192.0.2.146,2026-11-13 13:05:10,CRED_ATTACK,9334,27 failed logins in 10m
+192.0.2.146,2026-11-13 13:05:15,CRED_ATTACK,9335,28 failed logins in 10m
+192.0.2.146,2026-11-13 13:05:20,CRED_ATTACK,9336,29 failed logins in 10m
+192.0.2.146,2026-11-13 13:05:25,CRED_ATTACK,9337,30 failed logins in 10m
+192.0.2.19,2026-12-16 14:18:06,CRED_ATTACK,25287,3 failed logins in 10m
+192.0.2.19,2026-12-16 14:20:39,CRED_ATTACK,25288,4 failed logins in 10m
+192.0.2.19,2026-12-16 14:23:12,CRED_ATTACK,25290,4 failed logins in 10m
+192.0.2.19,2026-12-16 14:25:45,CRED_ATTACK,25291,4 failed logins in 10m
+192.0.2.19,2026-12-16 14:28:18,CRED_ATTACK,25292,4 failed logins in 10m
+192.0.2.211,2026-11-25 08:16:30,CRED_ATTACK,14961,3 failed logins in 10m
+192.0.2.211,2026-11-25 08:20:15,CRED_ATTACK,14964,3 failed logins in 10m
+192.0.2.211,2026-11-25 08:24:00,CRED_ATTACK,14969,3 failed logins in 10m
+192.0.2.211,2026-11-25 08:27:45,CRED_ATTACK,14970,3 failed logins in 10m
+192.0.2.55,2026-11-18 01:51:44,CRED_ATTACK,11447,3 failed logins in 10m
+192.0.2.55,2026-11-18 01:55:06,CRED_ATTACK,11449,3 failed logins in 10m
+198.51.100.105,2026-12-05 18:00:12,RECON,19991,"4 connections, 4 distinct ports, 4 denied in 10m"
+198.51.100.105,2026-12-05 18:00:16,RECON,19992,"5 connections, 5 distinct ports, 5 denied in 10m"
+198.51.100.105,2026-12-05 18:00:20,RECON,19993,"6 connections, 6 distinct ports, 6 denied in 10m"
+198.51.100.105,2026-12-05 18:00:24,RECON,19994,"7 connections, 7 distinct ports, 7 denied in 10m"
+198.51.100.105,2026-12-05 18:00:28,RECON,19995,"8 connections, 8 distinct ports, 8 denied in 10m"
+198.51.100.105,2026-12-05 18:00:32,RECON,19996,"9 connections, 9 distinct ports, 9 denied in 10m"
+198.51.100.105,2026-12-05 18:00:36,RECON,19997,"10 connections, 10 distinct ports, 10 denied in 10m"
+198.51.100.105,2026-12-05 18:00:40,RECON,19998,"11 connections, 11 distinct ports, 11 denied in 10m"
+198.51.100.105,2026-12-05 18:00:44,RECON,19999,"12 connections, 12 distinct ports, 12 denied in 10m"
+198.51.100.105,2026-12-05 18:00:48,RECON,20000,"13 connections, 13 distinct ports, 13 denied in 10m"
+198.51.100.105,2026-12-05 18:00:52,RECON,20001,"14 connections, 14 distinct ports, 14 denied in 10m"
+198.51.100.105,2026-12-05 18:00:56,RECON,20002,"15 connections, 15 distinct ports, 15 denied in 10m"
+198.51.100.105,2026-12-05 18:01:00,RECON,20004,"16 connections, 16 distinct ports, 16 denied in 10m"
+198.51.100.105,2026-12-05 18:03:10,CRED_ATTACK,20007,3 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:15,CRED_ATTACK,20008,4 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:20,CRED_ATTACK,20009,5 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:25,CRED_ATTACK,20010,6 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:30,CRED_ATTACK,20011,7 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:35,CRED_ATTACK,20012,8 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:40,CRED_ATTACK,20013,9 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:45,CRED_ATTACK,20014,10 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:50,CRED_ATTACK,20015,11 failed logins in 10m
+198.51.100.105,2026-12-05 18:03:55,CRED_ATTACK,20016,12 failed logins in 10m
+198.51.100.105,2026-12-05 18:04:00,CRED_ATTACK,20017,13 failed logins in 10m
+198.51.100.105,2026-12-05 18:04:05,CRED_ATTACK,20018,14 failed logins in 10m
+198.51.100.105,2026-12-05 18:04:10,CRED_ATTACK,20019,15 failed logins in 10m
+198.51.100.105,2026-12-05 18:04:15,CRED_ATTACK,20020,16 failed logins in 10m
+198.51.100.105,2026-12-05 18:04:20,CRED_ATTACK,20021,17 failed logins in 10m
+198.51.100.105,2026-12-05 18:04:25,CRED_ATTACK,20022,18 failed logins in 10m
+198.51.100.105,2026-12-05 18:05:00,COMPROMISE,20023,successful login after 18 failed logins in 15m
+198.51.100.180,2026-11-04 19:11:26,CRED_ATTACK,5101,3 failed logins in 10m
+198.51.100.180,2026-11-04 19:14:39,CRED_ATTACK,5104,4 failed logins in 10m
+198.51.100.180,2026-11-04 19:17:52,CRED_ATTACK,5107,4 failed logins in 10m
+198.51.100.211,2026-11-27 13:00:12,RECON,16002,"4 connections, 4 distinct ports, 4 denied in 10m"
+198.51.100.211,2026-11-27 13:00:16,RECON,16003,"5 connections, 5 distinct ports, 5 denied in 10m"
+198.51.100.211,2026-11-27 13:00:20,RECON,16004,"6 connections, 6 distinct ports, 6 denied in 10m"
+198.51.100.211,2026-11-27 13:00:24,RECON,16005,"7 connections, 7 distinct ports, 7 denied in 10m"
+198.51.100.211,2026-11-27 13:00:28,RECON,16006,"8 connections, 8 distinct ports, 8 denied in 10m"
+198.51.100.211,2026-11-27 13:00:32,RECON,16007,"9 connections, 9 distinct ports, 9 denied in 10m"
+198.51.100.211,2026-11-27 13:00:36,RECON,16008,"10 connections, 10 distinct ports, 10 denied in 10m"
+198.51.100.211,2026-11-27 13:00:40,RECON,16009,"11 connections, 11 distinct ports, 11 denied in 10m"
+198.51.100.211,2026-11-27 13:00:44,RECON,16010,"12 connections, 12 distinct ports, 12 denied in 10m"
+198.51.100.211,2026-11-27 13:00:48,RECON,16011,"13 connections, 13 distinct ports, 13 denied in 10m"
+198.51.100.211,2026-11-27 13:00:52,RECON,16012,"14 connections, 14 distinct ports, 14 denied in 10m"
+198.51.100.211,2026-11-27 13:03:10,CRED_ATTACK,16017,3 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:15,CRED_ATTACK,16018,4 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:20,CRED_ATTACK,16019,5 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:25,CRED_ATTACK,16020,6 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:30,CRED_ATTACK,16021,7 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:35,CRED_ATTACK,16022,8 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:40,CRED_ATTACK,16023,9 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:45,CRED_ATTACK,16024,10 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:50,CRED_ATTACK,16025,11 failed logins in 10m
+198.51.100.211,2026-11-27 13:03:55,CRED_ATTACK,16026,12 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:00,CRED_ATTACK,16027,13 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:05,CRED_ATTACK,16028,14 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:10,CRED_ATTACK,16029,15 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:15,CRED_ATTACK,16030,16 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:20,CRED_ATTACK,16031,17 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:25,CRED_ATTACK,16032,18 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:30,CRED_ATTACK,16033,19 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:35,CRED_ATTACK,16034,20 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:40,CRED_ATTACK,16035,21 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:45,CRED_ATTACK,16036,22 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:50,CRED_ATTACK,16037,23 failed logins in 10m
+198.51.100.211,2026-11-27 13:04:55,CRED_ATTACK,16038,24 failed logins in 10m
+198.51.100.211,2026-11-27 13:05:00,CRED_ATTACK,16039,25 failed logins in 10m
+198.51.100.211,2026-11-27 13:05:05,CRED_ATTACK,16040,26 failed logins in 10m
+198.51.100.211,2026-11-27 13:05:10,CRED_ATTACK,16041,27 failed logins in 10m
+198.51.100.211,2026-11-27 13:05:15,CRED_ATTACK,16042,28 failed logins in 10m
+198.51.100.211,2026-11-27 13:05:20,CRED_ATTACK,16043,29 failed logins in 10m
+198.51.100.211,2026-11-27 13:05:25,CRED_ATTACK,16044,30 failed logins in 10m
+198.51.100.216,2026-11-28 18:00:12,RECON,16601,"4 connections, 4 distinct ports, 4 denied in 10m"
+198.51.100.216,2026-11-28 18:00:16,RECON,16602,"5 connections, 5 distinct ports, 5 denied in 10m"
+198.51.100.216,2026-11-28 18:00:20,RECON,16603,"6 connections, 6 distinct ports, 6 denied in 10m"
+198.51.100.216,2026-11-28 18:00:24,RECON,16604,"7 connections, 7 distinct ports, 7 denied in 10m"
+198.51.100.216,2026-11-28 18:00:28,RECON,16605,"8 connections, 8 distinct ports, 8 denied in 10m"
+198.51.100.216,2026-11-28 18:00:32,RECON,16606,"9 connections, 9 distinct ports, 9 denied in 10m"
+198.51.100.216,2026-11-28 18:00:36,RECON,16607,"10 connections, 10 distinct ports, 10 denied in 10m"
+198.51.100.216,2026-11-28 18:00:40,RECON,16608,"11 connections, 11 distinct ports, 11 denied in 10m"
+198.51.100.216,2026-11-28 18:00:44,RECON,16609,"12 connections, 12 distinct ports, 12 denied in 10m"
+198.51.100.216,2026-11-28 18:00:48,RECON,16610,"13 connections, 13 distinct ports, 13 denied in 10m"
+198.51.100.216,2026-11-28 18:00:52,RECON,16611,"14 connections, 14 distinct ports, 14 denied in 10m"
+198.51.100.216,2026-11-28 18:00:56,RECON,16612,"15 connections, 15 distinct ports, 15 denied in 10m"
+198.51.100.216,2026-11-28 18:01:00,RECON,16614,"16 connections, 16 distinct ports, 16 denied in 10m"
+198.51.100.216,2026-11-28 18:03:10,CRED_ATTACK,16617,3 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:15,CRED_ATTACK,16618,4 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:20,CRED_ATTACK,16619,5 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:25,CRED_ATTACK,16620,6 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:30,CRED_ATTACK,16621,7 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:35,CRED_ATTACK,16622,8 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:40,CRED_ATTACK,16623,9 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:45,CRED_ATTACK,16624,10 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:50,CRED_ATTACK,16625,11 failed logins in 10m
+198.51.100.216,2026-11-28 18:03:55,CRED_ATTACK,16626,12 failed logins in 10m
+198.51.100.216,2026-11-28 18:04:00,CRED_ATTACK,16627,13 failed logins in 10m
+198.51.100.216,2026-11-28 18:04:05,CRED_ATTACK,16628,14 failed logins in 10m
+198.51.100.216,2026-11-28 18:04:10,CRED_ATTACK,16629,15 failed logins in 10m
+198.51.100.216,2026-11-28 18:04:15,CRED_ATTACK,16630,16 failed logins in 10m
+198.51.100.216,2026-11-28 18:04:20,CRED_ATTACK,16631,17 failed logins in 10m
+198.51.100.216,2026-11-28 18:04:25,CRED_ATTACK,16632,18 failed logins in 10m
+198.51.100.216,2026-11-28 18:05:00,COMPROMISE,16634,successful login after 18 failed logins in 15m
+198.51.100.216,2026-11-28 18:09:00,PRIV_ESC,16636,elevated shell sudo event
+198.51.100.216,2026-11-28 18:12:00,PERSISTENCE,16638,new account 'service_61'
+198.51.100.220,2026-12-09 07:37:18,CRED_ATTACK,21761,3 failed logins in 10m
+198.51.100.220,2026-12-09 07:39:57,CRED_ATTACK,21763,4 failed logins in 10m
+198.51.100.220,2026-12-09 07:42:36,CRED_ATTACK,21764,4 failed logins in 10m
+198.51.100.220,2026-12-09 07:45:15,CRED_ATTACK,21766,4 failed logins in 10m
+198.51.100.220,2026-12-09 07:47:54,CRED_ATTACK,21767,4 failed logins in 10m
+198.51.100.52,2026-11-06 13:00:12,RECON,5912,"4 connections, 4 distinct ports, 4 denied in 10m"
+198.51.100.52,2026-11-06 13:00:16,RECON,5913,"5 connections, 5 distinct ports, 5 denied in 10m"
+198.51.100.52,2026-11-06 13:00:20,RECON,5914,"6 connections, 6 distinct ports, 6 denied in 10m"
+198.51.100.52,2026-11-06 13:00:24,RECON,5915,"7 connections, 7 distinct ports, 7 denied in 10m"
+198.51.100.52,2026-11-06 13:00:28,RECON,5916,"8 connections, 8 distinct ports, 8 denied in 10m"
+198.51.100.52,2026-11-06 13:00:32,RECON,5917,"9 connections, 9 distinct ports, 9 denied in 10m"
+198.51.100.52,2026-11-06 13:00:36,RECON,5918,"10 connections, 10 distinct ports, 10 denied in 10m"
+198.51.100.52,2026-11-06 13:00:40,RECON,5919,"11 connections, 11 distinct ports, 11 denied in 10m"
+198.51.100.52,2026-11-06 13:00:44,RECON,5920,"12 connections, 12 distinct ports, 12 denied in 10m"
+198.51.100.52,2026-11-06 13:00:48,RECON,5921,"13 connections, 13 distinct ports, 13 denied in 10m"
+198.51.100.52,2026-11-06 13:00:52,RECON,5922,"14 connections, 14 distinct ports, 14 denied in 10m"
+198.51.100.52,2026-11-06 13:03:10,CRED_ATTACK,5927,3 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:15,CRED_ATTACK,5928,4 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:20,CRED_ATTACK,5929,5 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:25,CRED_ATTACK,5930,6 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:30,CRED_ATTACK,5931,7 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:35,CRED_ATTACK,5932,8 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:40,CRED_ATTACK,5933,9 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:45,CRED_ATTACK,5934,10 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:50,CRED_ATTACK,5935,11 failed logins in 10m
+198.51.100.52,2026-11-06 13:03:55,CRED_ATTACK,5936,12 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:00,CRED_ATTACK,5938,13 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:05,CRED_ATTACK,5939,14 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:10,CRED_ATTACK,5940,15 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:15,CRED_ATTACK,5941,16 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:20,CRED_ATTACK,5942,17 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:25,CRED_ATTACK,5943,18 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:30,CRED_ATTACK,5944,19 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:35,CRED_ATTACK,5945,20 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:40,CRED_ATTACK,5946,21 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:45,CRED_ATTACK,5947,22 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:50,CRED_ATTACK,5948,23 failed logins in 10m
+198.51.100.52,2026-11-06 13:04:55,CRED_ATTACK,5949,24 failed logins in 10m
+198.51.100.52,2026-11-06 13:05:00,CRED_ATTACK,5950,25 failed logins in 10m
+198.51.100.52,2026-11-06 13:05:05,CRED_ATTACK,5951,26 failed logins in 10m
+198.51.100.52,2026-11-06 13:05:10,CRED_ATTACK,5952,27 failed logins in 10m
+198.51.100.52,2026-11-06 13:05:15,CRED_ATTACK,5953,28 failed logins in 10m
+198.51.100.52,2026-11-06 13:05:20,CRED_ATTACK,5954,29 failed logins in 10m
+198.51.100.52,2026-11-06 13:05:25,CRED_ATTACK,5955,30 failed logins in 10m
+198.51.100.80,2026-12-12 18:00:12,RECON,23414,"4 connections, 4 distinct ports, 4 denied in 10m"
+198.51.100.80,2026-12-12 18:00:16,RECON,23415,"5 connections, 5 distinct ports, 5 denied in 10m"
+198.51.100.80,2026-12-12 18:00:20,RECON,23416,"6 connections, 6 distinct ports, 6 denied in 10m"
+198.51.100.80,2026-12-12 18:00:24,RECON,23417,"7 connections, 7 distinct ports, 7 denied in 10m"
+198.51.100.80,2026-12-12 18:00:28,RECON,23418,"8 connections, 8 distinct ports, 8 denied in 10m"
+198.51.100.80,2026-12-12 18:00:32,RECON,23419,"9 connections, 9 distinct ports, 9 denied in 10m"
+198.51.100.80,2026-12-12 18:00:36,RECON,23420,"10 connections, 10 distinct ports, 10 denied in 10m"
+198.51.100.80,2026-12-12 18:00:40,RECON,23421,"11 connections, 11 distinct ports, 11 denied in 10m"
+198.51.100.80,2026-12-12 18:00:44,RECON,23422,"12 connections, 12 distinct ports, 12 denied in 10m"
+198.51.100.80,2026-12-12 18:00:48,RECON,23423,"13 connections, 13 distinct ports, 13 denied in 10m"
+198.51.100.80,2026-12-12 18:00:52,RECON,23424,"14 connections, 14 distinct ports, 14 denied in 10m"
+198.51.100.80,2026-12-12 18:00:56,RECON,23425,"15 connections, 15 distinct ports, 15 denied in 10m"
+198.51.100.80,2026-12-12 18:01:00,RECON,23427,"16 connections, 16 distinct ports, 16 denied in 10m"
+198.51.100.80,2026-12-12 18:03:10,CRED_ATTACK,23430,3 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:15,CRED_ATTACK,23431,4 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:20,CRED_ATTACK,23432,5 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:25,CRED_ATTACK,23433,6 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:30,CRED_ATTACK,23434,7 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:35,CRED_ATTACK,23435,8 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:40,CRED_ATTACK,23436,9 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:45,CRED_ATTACK,23437,10 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:50,CRED_ATTACK,23438,11 failed logins in 10m
+198.51.100.80,2026-12-12 18:03:55,CRED_ATTACK,23439,12 failed logins in 10m
+198.51.100.80,2026-12-12 18:04:00,CRED_ATTACK,23441,13 failed logins in 10m
+198.51.100.80,2026-12-12 18:04:05,CRED_ATTACK,23442,14 failed logins in 10m
+198.51.100.80,2026-12-12 18:04:10,CRED_ATTACK,23443,15 failed logins in 10m
+198.51.100.80,2026-12-12 18:04:15,CRED_ATTACK,23444,16 failed logins in 10m
+198.51.100.80,2026-12-12 18:04:20,CRED_ATTACK,23445,17 failed logins in 10m
+198.51.100.80,2026-12-12 18:04:25,CRED_ATTACK,23446,18 failed logins in 10m
+198.51.100.80,2026-12-12 18:05:00,COMPROMISE,23448,successful login after 18 failed logins in 15m
+198.51.100.80,2026-12-12 18:09:00,PRIV_ESC,23450,elevated shell sudo event
+198.51.100.80,2026-12-12 18:12:00,PERSISTENCE,23452,new account 'service_75'
+198.51.100.86,2026-11-20 13:00:12,RECON,12636,"4 connections, 4 distinct ports, 4 denied in 10m"
+198.51.100.86,2026-11-20 13:00:16,RECON,12637,"5 connections, 5 distinct ports, 5 denied in 10m"
+198.51.100.86,2026-11-20 13:00:20,RECON,12638,"6 connections, 6 distinct ports, 6 denied in 10m"
+198.51.100.86,2026-11-20 13:00:24,RECON,12639,"7 connections, 7 distinct ports, 7 denied in 10m"
+198.51.100.86,2026-11-20 13:00:28,RECON,12640,"8 connections, 8 distinct ports, 8 denied in 10m"
+198.51.100.86,2026-11-20 13:00:32,RECON,12641,"9 connections, 9 distinct ports, 9 denied in 10m"
+198.51.100.86,2026-11-20 13:00:36,RECON,12642,"10 connections, 10 distinct ports, 10 denied in 10m"
+198.51.100.86,2026-11-20 13:00:40,RECON,12643,"11 connections, 11 distinct ports, 11 denied in 10m"
+198.51.100.86,2026-11-20 13:00:44,RECON,12644,"12 connections, 12 distinct ports, 12 denied in 10m"
+198.51.100.86,2026-11-20 13:00:48,RECON,12645,"13 connections, 13 distinct ports, 13 denied in 10m"
+198.51.100.86,2026-11-20 13:00:52,RECON,12646,"14 connections, 14 distinct ports, 14 denied in 10m"
+198.51.100.86,2026-11-20 13:03:10,CRED_ATTACK,12651,3 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:15,CRED_ATTACK,12652,4 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:20,CRED_ATTACK,12653,5 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:25,CRED_ATTACK,12654,6 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:30,CRED_ATTACK,12655,7 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:35,CRED_ATTACK,12656,8 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:40,CRED_ATTACK,12657,9 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:45,CRED_ATTACK,12658,10 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:50,CRED_ATTACK,12659,11 failed logins in 10m
+198.51.100.86,2026-11-20 13:03:55,CRED_ATTACK,12660,12 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:00,CRED_ATTACK,12662,13 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:05,CRED_ATTACK,12663,14 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:10,CRED_ATTACK,12664,15 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:15,CRED_ATTACK,12665,16 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:20,CRED_ATTACK,12666,17 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:25,CRED_ATTACK,12667,18 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:30,CRED_ATTACK,12668,19 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:35,CRED_ATTACK,12669,20 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:40,CRED_ATTACK,12670,21 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:45,CRED_ATTACK,12671,22 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:50,CRED_ATTACK,12672,23 failed logins in 10m
+198.51.100.86,2026-11-20 13:04:55,CRED_ATTACK,12673,24 failed logins in 10m
+198.51.100.86,2026-11-20 13:05:00,CRED_ATTACK,12674,25 failed logins in 10m
+198.51.100.86,2026-11-20 13:05:05,CRED_ATTACK,12675,26 failed logins in 10m
+198.51.100.86,2026-11-20 13:05:10,CRED_ATTACK,12676,27 failed logins in 10m
+198.51.100.86,2026-11-20 13:05:15,CRED_ATTACK,12677,28 failed logins in 10m
+198.51.100.86,2026-11-20 13:05:20,CRED_ATTACK,12678,29 failed logins in 10m
+198.51.100.86,2026-11-20 13:05:25,CRED_ATTACK,12679,30 failed logins in 10m
+198.51.100.9,2026-10-28 01:09:40,CRED_ATTACK,1429,3 failed logins in 10m
+198.51.100.9,2026-10-28 01:13:30,CRED_ATTACK,1430,3 failed logins in 10m
+198.51.100.9,2026-10-28 01:17:20,CRED_ATTACK,1432,3 failed logins in 10m
+198.51.100.9,2026-10-28 01:21:10,CRED_ATTACK,1434,3 failed logins in 10m
+198.51.100.9,2026-10-28 01:25:00,CRED_ATTACK,1435,3 failed logins in 10m
+198.51.100.9,2026-10-28 01:28:50,CRED_ATTACK,1436,3 failed logins in 10m
+198.51.100.96,2026-12-02 03:43:46,CRED_ATTACK,18275,3 failed logins in 10m
+198.51.100.96,2026-12-02 03:47:09,CRED_ATTACK,18279,3 failed logins in 10m
+198.51.100.96,2026-12-02 03:50:32,CRED_ATTACK,18281,3 failed logins in 10m
+203.0.113.108,2026-10-30 13:00:12,RECON,2584,"4 connections, 4 distinct ports, 4 denied in 10m"
+203.0.113.108,2026-10-30 13:00:16,RECON,2585,"5 connections, 5 distinct ports, 5 denied in 10m"
+203.0.113.108,2026-10-30 13:00:20,RECON,2586,"6 connections, 6 distinct ports, 6 denied in 10m"
+203.0.113.108,2026-10-30 13:00:24,RECON,2587,"7 connections, 7 distinct ports, 7 denied in 10m"
+203.0.113.108,2026-10-30 13:00:28,RECON,2588,"8 connections, 8 distinct ports, 8 denied in 10m"
+203.0.113.108,2026-10-30 13:00:32,RECON,2589,"9 connections, 9 distinct ports, 9 denied in 10m"
+203.0.113.108,2026-10-30 13:00:36,RECON,2590,"10 connections, 10 distinct ports, 10 denied in 10m"
+203.0.113.108,2026-10-30 13:00:40,RECON,2591,"11 connections, 11 distinct ports, 11 denied in 10m"
+203.0.113.108,2026-10-30 13:00:44,RECON,2592,"12 connections, 12 distinct ports, 12 denied in 10m"
+203.0.113.108,2026-10-30 13:00:48,RECON,2593,"13 connections, 13 distinct ports, 13 denied in 10m"
+203.0.113.108,2026-10-30 13:00:52,RECON,2594,"14 connections, 14 distinct ports, 14 denied in 10m"
+203.0.113.108,2026-10-30 13:03:10,CRED_ATTACK,2599,3 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:15,CRED_ATTACK,2600,4 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:20,CRED_ATTACK,2601,5 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:25,CRED_ATTACK,2602,6 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:30,CRED_ATTACK,2603,7 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:35,CRED_ATTACK,2604,8 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:40,CRED_ATTACK,2605,9 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:45,CRED_ATTACK,2606,10 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:50,CRED_ATTACK,2607,11 failed logins in 10m
+203.0.113.108,2026-10-30 13:03:55,CRED_ATTACK,2608,12 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:00,CRED_ATTACK,2609,13 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:05,CRED_ATTACK,2610,14 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:10,CRED_ATTACK,2611,15 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:15,CRED_ATTACK,2612,16 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:20,CRED_ATTACK,2613,17 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:25,CRED_ATTACK,2614,18 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:30,CRED_ATTACK,2615,19 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:35,CRED_ATTACK,2616,20 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:40,CRED_ATTACK,2617,21 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:45,CRED_ATTACK,2618,22 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:50,CRED_ATTACK,2619,23 failed logins in 10m
+203.0.113.108,2026-10-30 13:04:55,CRED_ATTACK,2620,24 failed logins in 10m
+203.0.113.108,2026-10-30 13:05:00,CRED_ATTACK,2621,25 failed logins in 10m
+203.0.113.108,2026-10-30 13:05:05,CRED_ATTACK,2622,26 failed logins in 10m
+203.0.113.108,2026-10-30 13:05:10,CRED_ATTACK,2623,27 failed logins in 10m
+203.0.113.108,2026-10-30 13:05:15,CRED_ATTACK,2624,28 failed logins in 10m
+203.0.113.108,2026-10-30 13:05:20,CRED_ATTACK,2625,29 failed logins in 10m
+203.0.113.108,2026-10-30 13:05:25,CRED_ATTACK,2626,30 failed logins in 10m
+203.0.113.131,2026-12-04 13:00:12,RECON,19378,"4 connections, 4 distinct ports, 4 denied in 10m"
+203.0.113.131,2026-12-04 13:00:16,RECON,19379,"5 connections, 5 distinct ports, 5 denied in 10m"
+203.0.113.131,2026-12-04 13:00:20,RECON,19380,"6 connections, 6 distinct ports, 6 denied in 10m"
+203.0.113.131,2026-12-04 13:00:24,RECON,19381,"7 connections, 7 distinct ports, 7 denied in 10m"
+203.0.113.131,2026-12-04 13:00:28,RECON,19382,"8 connections, 8 distinct ports, 8 denied in 10m"
+203.0.113.131,2026-12-04 13:00:32,RECON,19383,"9 connections, 9 distinct ports, 9 denied in 10m"
+203.0.113.131,2026-12-04 13:00:36,RECON,19384,"10 connections, 10 distinct ports, 10 denied in 10m"
+203.0.113.131,2026-12-04 13:00:40,RECON,19385,"11 connections, 11 distinct ports, 11 denied in 10m"
+203.0.113.131,2026-12-04 13:00:44,RECON,19386,"12 connections, 12 distinct ports, 12 denied in 10m"
+203.0.113.131,2026-12-04 13:00:48,RECON,19387,"13 connections, 13 distinct ports, 13 denied in 10m"
+203.0.113.131,2026-12-04 13:00:52,RECON,19388,"14 connections, 14 distinct ports, 14 denied in 10m"
+203.0.113.131,2026-12-04 13:03:10,CRED_ATTACK,19392,3 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:15,CRED_ATTACK,19393,4 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:20,CRED_ATTACK,19394,5 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:25,CRED_ATTACK,19395,6 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:30,CRED_ATTACK,19396,7 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:35,CRED_ATTACK,19397,8 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:40,CRED_ATTACK,19398,9 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:45,CRED_ATTACK,19399,10 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:50,CRED_ATTACK,19400,11 failed logins in 10m
+203.0.113.131,2026-12-04 13:03:55,CRED_ATTACK,19401,12 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:00,CRED_ATTACK,19403,13 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:05,CRED_ATTACK,19404,14 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:10,CRED_ATTACK,19405,15 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:15,CRED_ATTACK,19406,16 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:20,CRED_ATTACK,19407,17 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:25,CRED_ATTACK,19408,18 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:30,CRED_ATTACK,19409,19 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:35,CRED_ATTACK,19410,20 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:40,CRED_ATTACK,19411,21 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:45,CRED_ATTACK,19412,22 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:50,CRED_ATTACK,19413,23 failed logins in 10m
+203.0.113.131,2026-12-04 13:04:55,CRED_ATTACK,19414,24 failed logins in 10m
+203.0.113.131,2026-12-04 13:05:00,CRED_ATTACK,19415,25 failed logins in 10m
+203.0.113.131,2026-12-04 13:05:05,CRED_ATTACK,19416,26 failed logins in 10m
+203.0.113.131,2026-12-04 13:05:10,CRED_ATTACK,19417,27 failed logins in 10m
+203.0.113.131,2026-12-04 13:05:15,CRED_ATTACK,19418,28 failed logins in 10m
+203.0.113.131,2026-12-04 13:05:20,CRED_ATTACK,19419,29 failed logins in 10m
+203.0.113.131,2026-12-04 13:05:25,CRED_ATTACK,19420,30 failed logins in 10m
+203.0.113.146,2026-10-31 18:00:12,RECON,3187,"4 connections, 4 distinct ports, 4 denied in 10m"
+203.0.113.146,2026-10-31 18:00:16,RECON,3188,"5 connections, 5 distinct ports, 5 denied in 10m"
+203.0.113.146,2026-10-31 18:00:20,RECON,3189,"6 connections, 6 distinct ports, 6 denied in 10m"
+203.0.113.146,2026-10-31 18:00:24,RECON,3190,"7 connections, 7 distinct ports, 7 denied in 10m"
+203.0.113.146,2026-10-31 18:00:28,RECON,3191,"8 connections, 8 distinct ports, 8 denied in 10m"
+203.0.113.146,2026-10-31 18:00:32,RECON,3192,"9 connections, 9 distinct ports, 9 denied in 10m"
+203.0.113.146,2026-10-31 18:00:36,RECON,3193,"10 connections, 10 distinct ports, 10 denied in 10m"
+203.0.113.146,2026-10-31 18:00:40,RECON,3194,"11 connections, 11 distinct ports, 11 denied in 10m"
+203.0.113.146,2026-10-31 18:00:44,RECON,3195,"12 connections, 12 distinct ports, 12 denied in 10m"
+203.0.113.146,2026-10-31 18:00:48,RECON,3196,"13 connections, 13 distinct ports, 13 denied in 10m"
+203.0.113.146,2026-10-31 18:00:52,RECON,3197,"14 connections, 14 distinct ports, 14 denied in 10m"
+203.0.113.146,2026-10-31 18:00:56,RECON,3198,"15 connections, 15 distinct ports, 15 denied in 10m"
+203.0.113.146,2026-10-31 18:01:00,RECON,3199,"16 connections, 16 distinct ports, 16 denied in 10m"
+203.0.113.146,2026-10-31 18:03:10,CRED_ATTACK,3202,3 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:15,CRED_ATTACK,3203,4 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:20,CRED_ATTACK,3204,5 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:25,CRED_ATTACK,3205,6 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:30,CRED_ATTACK,3206,7 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:35,CRED_ATTACK,3207,8 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:40,CRED_ATTACK,3208,9 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:45,CRED_ATTACK,3209,10 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:50,CRED_ATTACK,3210,11 failed logins in 10m
+203.0.113.146,2026-10-31 18:03:55,CRED_ATTACK,3211,12 failed logins in 10m
+203.0.113.146,2026-10-31 18:04:00,CRED_ATTACK,3212,13 failed logins in 10m
+203.0.113.146,2026-10-31 18:04:05,CRED_ATTACK,3213,14 failed logins in 10m
+203.0.113.146,2026-10-31 18:04:10,CRED_ATTACK,3214,15 failed logins in 10m
+203.0.113.146,2026-10-31 18:04:15,CRED_ATTACK,3215,16 failed logins in 10m
+203.0.113.146,2026-10-31 18:04:20,CRED_ATTACK,3216,17 failed logins in 10m
+203.0.113.146,2026-10-31 18:04:25,CRED_ATTACK,3217,18 failed logins in 10m
+203.0.113.146,2026-10-31 18:05:00,COMPROMISE,3218,successful login after 18 failed logins in 15m
+203.0.113.146,2026-10-31 18:09:00,PRIV_ESC,3220,elevated shell sudo event
+203.0.113.146,2026-10-31 18:12:00,PERSISTENCE,3221,new account 'service_59'
+203.0.113.163,2026-12-19 18:00:12,RECON,26805,"4 connections, 4 distinct ports, 4 denied in 10m"
+203.0.113.163,2026-12-19 18:00:16,RECON,26806,"5 connections, 5 distinct ports, 5 denied in 10m"
+203.0.113.163,2026-12-19 18:00:20,RECON,26807,"6 connections, 6 distinct ports, 6 denied in 10m"
+203.0.113.163,2026-12-19 18:00:24,RECON,26808,"7 connections, 7 distinct ports, 7 denied in 10m"
+203.0.113.163,2026-12-19 18:00:28,RECON,26809,"8 connections, 8 distinct ports, 8 denied in 10m"
+203.0.113.163,2026-12-19 18:00:32,RECON,26810,"9 connections, 9 distinct ports, 9 denied in 10m"
+203.0.113.163,2026-12-19 18:00:36,RECON,26811,"10 connections, 10 distinct ports, 10 denied in 10m"
+203.0.113.163,2026-12-19 18:00:40,RECON,26812,"11 connections, 11 distinct ports, 11 denied in 10m"
+203.0.113.163,2026-12-19 18:00:44,RECON,26813,"12 connections, 12 distinct ports, 12 denied in 10m"
+203.0.113.163,2026-12-19 18:00:48,RECON,26814,"13 connections, 13 distinct ports, 13 denied in 10m"
+203.0.113.163,2026-12-19 18:00:52,RECON,26815,"14 connections, 14 distinct ports, 14 denied in 10m"
+203.0.113.163,2026-12-19 18:00:56,RECON,26816,"15 connections, 15 distinct ports, 15 denied in 10m"
+203.0.113.163,2026-12-19 18:01:00,RECON,26817,"16 connections, 16 distinct ports, 16 denied in 10m"
+203.0.113.163,2026-12-19 18:03:10,CRED_ATTACK,26820,3 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:15,CRED_ATTACK,26821,4 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:20,CRED_ATTACK,26822,5 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:25,CRED_ATTACK,26823,6 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:30,CRED_ATTACK,26824,7 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:35,CRED_ATTACK,26825,8 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:40,CRED_ATTACK,26826,9 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:45,CRED_ATTACK,26827,10 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:50,CRED_ATTACK,26828,11 failed logins in 10m
+203.0.113.163,2026-12-19 18:03:55,CRED_ATTACK,26829,12 failed logins in 10m
+203.0.113.163,2026-12-19 18:04:00,CRED_ATTACK,26830,13 failed logins in 10m
+203.0.113.163,2026-12-19 18:04:05,CRED_ATTACK,26831,14 failed logins in 10m
+203.0.113.163,2026-12-19 18:04:10,CRED_ATTACK,26832,15 failed logins in 10m
+203.0.113.163,2026-12-19 18:04:15,CRED_ATTACK,26833,16 failed logins in 10m
+203.0.113.163,2026-12-19 18:04:20,CRED_ATTACK,26834,17 failed logins in 10m
+203.0.113.163,2026-12-19 18:04:25,CRED_ATTACK,26835,18 failed logins in 10m
+203.0.113.163,2026-12-19 18:05:00,COMPROMISE,26836,successful login after 18 failed logins in 15m
+203.0.113.163,2026-12-19 18:09:00,PRIV_ESC,26838,elevated shell sudo event
+203.0.113.163,2026-12-19 18:12:00,PERSISTENCE,26840,new account 'service_93'
+203.0.113.205,2026-12-18 13:00:12,RECON,26191,"4 connections, 4 distinct ports, 4 denied in 10m"
+203.0.113.205,2026-12-18 13:00:16,RECON,26192,"5 connections, 5 distinct ports, 5 denied in 10m"
+203.0.113.205,2026-12-18 13:00:20,RECON,26193,"6 connections, 6 distinct ports, 6 denied in 10m"
+203.0.113.205,2026-12-18 13:00:24,RECON,26194,"7 connections, 7 distinct ports, 7 denied in 10m"
+203.0.113.205,2026-12-18 13:00:28,RECON,26195,"8 connections, 8 distinct ports, 8 denied in 10m"
+203.0.113.205,2026-12-18 13:00:32,RECON,26196,"9 connections, 9 distinct ports, 9 denied in 10m"
+203.0.113.205,2026-12-18 13:00:36,RECON,26197,"10 connections, 10 distinct ports, 10 denied in 10m"
+203.0.113.205,2026-12-18 13:00:40,RECON,26198,"11 connections, 11 distinct ports, 11 denied in 10m"
+203.0.113.205,2026-12-18 13:00:44,RECON,26199,"12 connections, 12 distinct ports, 12 denied in 10m"
+203.0.113.205,2026-12-18 13:00:48,RECON,26200,"13 connections, 13 distinct ports, 13 denied in 10m"
+203.0.113.205,2026-12-18 13:00:52,RECON,26201,"14 connections, 14 distinct ports, 14 denied in 10m"
+203.0.113.205,2026-12-18 13:03:10,CRED_ATTACK,26205,3 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:15,CRED_ATTACK,26206,4 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:20,CRED_ATTACK,26207,5 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:25,CRED_ATTACK,26208,6 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:30,CRED_ATTACK,26209,7 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:35,CRED_ATTACK,26210,8 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:40,CRED_ATTACK,26211,9 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:45,CRED_ATTACK,26212,10 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:50,CRED_ATTACK,26213,11 failed logins in 10m
+203.0.113.205,2026-12-18 13:03:55,CRED_ATTACK,26214,12 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:00,CRED_ATTACK,26215,13 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:05,CRED_ATTACK,26216,14 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:10,CRED_ATTACK,26217,15 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:15,CRED_ATTACK,26218,16 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:20,CRED_ATTACK,26219,17 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:25,CRED_ATTACK,26220,18 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:30,CRED_ATTACK,26221,19 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:35,CRED_ATTACK,26222,20 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:40,CRED_ATTACK,26223,21 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:45,CRED_ATTACK,26224,22 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:50,CRED_ATTACK,26225,23 failed logins in 10m
+203.0.113.205,2026-12-18 13:04:55,CRED_ATTACK,26226,24 failed logins in 10m
+203.0.113.205,2026-12-18 13:05:00,CRED_ATTACK,26227,25 failed logins in 10m
+203.0.113.205,2026-12-18 13:05:05,CRED_ATTACK,26228,26 failed logins in 10m
+203.0.113.205,2026-12-18 13:05:10,CRED_ATTACK,26229,27 failed logins in 10m
+203.0.113.205,2026-12-18 13:05:15,CRED_ATTACK,26230,28 failed logins in 10m
+203.0.113.205,2026-12-18 13:05:20,CRED_ATTACK,26231,29 failed logins in 10m
+203.0.113.205,2026-12-18 13:05:25,CRED_ATTACK,26232,30 failed logins in 10m
+203.0.113.23,2026-11-11 15:17:22,CRED_ATTACK,8394,3 failed logins in 10m
+203.0.113.23,2026-11-11 15:21:03,CRED_ATTACK,8397,3 failed logins in 10m
+203.0.113.5,2026-11-07 18:00:12,RECON,6521,"4 connections, 4 distinct ports, 4 denied in 10m"
+203.0.113.5,2026-11-07 18:00:16,RECON,6522,"5 connections, 5 distinct ports, 5 denied in 10m"
+203.0.113.5,2026-11-07 18:00:20,RECON,6523,"6 connections, 6 distinct ports, 6 denied in 10m"
+203.0.113.5,2026-11-07 18:00:24,RECON,6524,"7 connections, 7 distinct ports, 7 denied in 10m"
+203.0.113.5,2026-11-07 18:00:28,RECON,6525,"8 connections, 8 distinct ports, 8 denied in 10m"
+203.0.113.5,2026-11-07 18:00:32,RECON,6526,"9 connections, 9 distinct ports, 9 denied in 10m"
+203.0.113.5,2026-11-07 18:00:36,RECON,6527,"10 connections, 10 distinct ports, 10 denied in 10m"
+203.0.113.5,2026-11-07 18:00:40,RECON,6528,"11 connections, 11 distinct ports, 11 denied in 10m"
+203.0.113.5,2026-11-07 18:00:44,RECON,6529,"12 connections, 12 distinct ports, 12 denied in 10m"
+203.0.113.5,2026-11-07 18:00:48,RECON,6530,"13 connections, 13 distinct ports, 13 denied in 10m"
+203.0.113.5,2026-11-07 18:00:52,RECON,6531,"14 connections, 14 distinct ports, 14 denied in 10m"
+203.0.113.5,2026-11-07 18:00:56,RECON,6532,"15 connections, 15 distinct ports, 15 denied in 10m"
+203.0.113.5,2026-11-07 18:01:00,RECON,6534,"16 connections, 16 distinct ports, 16 denied in 10m"
+203.0.113.5,2026-11-07 18:03:10,CRED_ATTACK,6537,3 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:15,CRED_ATTACK,6538,4 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:20,CRED_ATTACK,6539,5 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:25,CRED_ATTACK,6540,6 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:30,CRED_ATTACK,6541,7 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:35,CRED_ATTACK,6542,8 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:40,CRED_ATTACK,6543,9 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:45,CRED_ATTACK,6544,10 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:50,CRED_ATTACK,6545,11 failed logins in 10m
+203.0.113.5,2026-11-07 18:03:55,CRED_ATTACK,6546,12 failed logins in 10m
+203.0.113.5,2026-11-07 18:04:00,CRED_ATTACK,6547,13 failed logins in 10m
+203.0.113.5,2026-11-07 18:04:05,CRED_ATTACK,6548,14 failed logins in 10m
+203.0.113.5,2026-11-07 18:04:10,CRED_ATTACK,6549,15 failed logins in 10m
+203.0.113.5,2026-11-07 18:04:15,CRED_ATTACK,6550,16 failed logins in 10m
+203.0.113.5,2026-11-07 18:04:20,CRED_ATTACK,6551,17 failed logins in 10m
+203.0.113.5,2026-11-07 18:04:25,CRED_ATTACK,6552,18 failed logins in 10m
+203.0.113.5,2026-11-07 18:05:00,COMPROMISE,6553,successful login after 18 failed logins in 15m
+203.0.113.5,2026-11-07 18:09:00,PRIV_ESC,6554,elevated shell sudo event
+203.0.113.5,2026-11-07 18:12:00,PERSISTENCE,6556,new account 'service_30'
+203.0.113.51,2026-12-11 13:00:12,RECON,22802,"4 connections, 4 distinct ports, 4 denied in 10m"
+203.0.113.51,2026-12-11 13:00:16,RECON,22803,"5 connections, 5 distinct ports, 5 denied in 10m"
+203.0.113.51,2026-12-11 13:00:20,RECON,22804,"6 connections, 6 distinct ports, 6 denied in 10m"
+203.0.113.51,2026-12-11 13:00:24,RECON,22805,"7 connections, 7 distinct ports, 7 denied in 10m"
+203.0.113.51,2026-12-11 13:00:28,RECON,22806,"8 connections, 8 distinct ports, 8 denied in 10m"
+203.0.113.51,2026-12-11 13:00:32,RECON,22807,"9 connections, 9 distinct ports, 9 denied in 10m"
+203.0.113.51,2026-12-11 13:00:36,RECON,22808,"10 connections, 10 distinct ports, 10 denied in 10m"
+203.0.113.51,2026-12-11 13:00:40,RECON,22809,"11 connections, 11 distinct ports, 11 denied in 10m"
+203.0.113.51,2026-12-11 13:00:44,RECON,22810,"12 connections, 12 distinct ports, 12 denied in 10m"
+203.0.113.51,2026-12-11 13:00:48,RECON,22811,"13 connections, 13 distinct ports, 13 denied in 10m"
+203.0.113.51,2026-12-11 13:00:52,RECON,22812,"14 connections, 14 distinct ports, 14 denied in 10m"
+203.0.113.51,2026-12-11 13:03:10,CRED_ATTACK,22816,3 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:15,CRED_ATTACK,22817,4 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:20,CRED_ATTACK,22818,5 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:25,CRED_ATTACK,22819,6 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:30,CRED_ATTACK,22820,7 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:35,CRED_ATTACK,22821,8 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:40,CRED_ATTACK,22822,9 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:45,CRED_ATTACK,22823,10 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:50,CRED_ATTACK,22824,11 failed logins in 10m
+203.0.113.51,2026-12-11 13:03:55,CRED_ATTACK,22825,12 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:00,CRED_ATTACK,22826,13 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:05,CRED_ATTACK,22827,14 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:10,CRED_ATTACK,22828,15 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:15,CRED_ATTACK,22829,16 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:20,CRED_ATTACK,22830,17 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:25,CRED_ATTACK,22831,18 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:30,CRED_ATTACK,22832,19 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:35,CRED_ATTACK,22833,20 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:40,CRED_ATTACK,22834,21 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:45,CRED_ATTACK,22835,22 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:50,CRED_ATTACK,22836,23 failed logins in 10m
+203.0.113.51,2026-12-11 13:04:55,CRED_ATTACK,22837,24 failed logins in 10m
+203.0.113.51,2026-12-11 13:05:00,CRED_ATTACK,22838,25 failed logins in 10m
+203.0.113.51,2026-12-11 13:05:05,CRED_ATTACK,22839,26 failed logins in 10m
+203.0.113.51,2026-12-11 13:05:10,CRED_ATTACK,22840,27 failed logins in 10m
+203.0.113.51,2026-12-11 13:05:15,CRED_ATTACK,22841,28 failed logins in 10m
+203.0.113.51,2026-12-11 13:05:20,CRED_ATTACK,22842,29 failed logins in 10m
+203.0.113.51,2026-12-11 13:05:25,CRED_ATTACK,22843,30 failed logins in 10m

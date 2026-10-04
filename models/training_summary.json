@@ -1,0 +1,39 @@
+{
+  "split": "train",
+  "events": {
+    "rows": 11228,
+    "valid": 11228,
+    "skipped": 0,
+    "skip_reasons": {}
+  },
+  "windows": 11010,
+  "entities": 185,
+  "days": 24,
+  "features": [
+    "failed_logins",
+    "successful_logins",
+    "distinct_users",
+    "distinct_ports",
+    "denied_connections",
+    "web_requests",
+    "web_4xx",
+    "suspicious_requests",
+    "outbound_internal_bytes",
+    "outbound_external_bytes",
+    "sudo_routine",
+    "sudo_elevated",
+    "new_accounts",
+    "event_count",
+    "event_rate",
+    "failure_ratio",
+    "off_hours"
+  ],
+  "random_state": 42,
+  "n_estimators": 200,
+  "contamination": "auto",
+  "inventory": {
+    "app-01": "10.0.0.20",
+    "db-01": "10.0.0.30",
+    "web-01": "10.0.0.10"
+  }
+}

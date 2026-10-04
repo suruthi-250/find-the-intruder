@@ -1,0 +1,1809 @@
+{
+  "splits": [
+    "val",
+    "test_id",
+    "test_ood"
+  ],
+  "positive_labels": [
+    "failed_attack",
+    "successful_intrusion"
+  ],
+  "detectors": {
+    "0_majority": {
+      "splits": {
+        "val": {
+          "n_entity_days": 8796,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 24,
+            "tn": 8772,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0,
+            "fpr": 0.0
+          },
+          "per_label": {
+            "benign": {
+              "n": 8740,
+              "alert_rate": 0.0
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.0
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 0.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.0
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 8740,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "benign_trap": {
+                "Normal": 32,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "failed_attack": {
+                "Normal": 8,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 16,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 1.0,
+              "benign_trap": 1.0,
+              "failed_attack": 0.0,
+              "successful_intrusion": 0.0
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        },
+        "test_id": {
+          "n_entity_days": 8862,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 24,
+            "tn": 8838,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0,
+            "fpr": 0.0
+          },
+          "per_label": {
+            "benign": {
+              "n": 8806,
+              "alert_rate": 0.0
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.0
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 0.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.0
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 8806,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "benign_trap": {
+                "Normal": 32,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "failed_attack": {
+                "Normal": 8,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 16,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 1.0,
+              "benign_trap": 1.0,
+              "failed_attack": 0.0,
+              "successful_intrusion": 0.0
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        },
+        "test_ood": {
+          "n_entity_days": 5249,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 24,
+            "tn": 5225,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0,
+            "fpr": 0.0
+          },
+          "per_label": {
+            "benign": {
+              "n": 5193,
+              "alert_rate": 0.0
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.0
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 0.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.0
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 0,
+              "fp_rate": 0.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "lead_time": {
+                "n": 0,
+                "median_s": null,
+                "p90_s": null,
+                "mean_s": null,
+                "min_s": null,
+                "max_s": null
+              },
+              "warned_before_end_rate": null
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 5193,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "benign_trap": {
+                "Normal": 32,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "failed_attack": {
+                "Normal": 8,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 16,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 0
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 1.0,
+              "benign_trap": 1.0,
+              "failed_attack": 0.0,
+              "successful_intrusion": 0.0
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        }
+      },
+      "generalisation_gap_f1": 0.0
+    },
+    "A_anomaly_only": {
+      "splits": {
+        "val": {
+          "n_entity_days": 8796,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 23,
+            "fp": 2411,
+            "fn": 1,
+            "tn": 6361,
+            "precision": 0.0094,
+            "recall": 0.9583,
+            "f1": 0.0187,
+            "fpr": 0.2749
+          },
+          "per_label": {
+            "benign": {
+              "n": 8740,
+              "alert_rate": 0.2722
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 1.0
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.9375
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 23,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -10787.0,
+                "min_s": -62400.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 23,
+                "median_s": 1140.0,
+                "p90_s": 44460.0,
+                "mean_s": 11655.7,
+                "min_s": 360.0,
+                "max_s": 63540.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": 0.0,
+                "min_s": 0.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 360.0,
+                "p90_s": 360.0,
+                "mean_s": 360.0,
+                "min_s": 360.0,
+                "max_s": 360.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 15,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -16540.0,
+                "min_s": -62400.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 15,
+                "median_s": 1140.0,
+                "p90_s": 53940.0,
+                "mean_s": 17680.0,
+                "min_s": 1140.0,
+                "max_s": 63540.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 6361,
+                "Suspicious": 2379,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "benign_trap": {
+                "Normal": 0,
+                "Suspicious": 32,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 8,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 1,
+                "Suspicious": 15,
+                "Failed attack": 0,
+                "Intrusion": 0
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.7278,
+              "benign_trap": 0.0,
+              "failed_attack": 0.0,
+              "successful_intrusion": 0.0
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        },
+        "test_id": {
+          "n_entity_days": 8862,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 21,
+            "fp": 2397,
+            "fn": 3,
+            "tn": 6441,
+            "precision": 0.0087,
+            "recall": 0.875,
+            "f1": 0.0172,
+            "fpr": 0.2712
+          },
+          "per_label": {
+            "benign": {
+              "n": 8806,
+              "alert_rate": 0.2686
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 1.0
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.8125
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 21,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -12228.6,
+                "min_s": -63600.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 21,
+                "median_s": 1140.0,
+                "p90_s": 61740.0,
+                "mean_s": 13071.4,
+                "min_s": 360.0,
+                "max_s": 64740.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": 0.0,
+                "min_s": 0.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 360.0,
+                "p90_s": 360.0,
+                "mean_s": 360.0,
+                "min_s": 360.0,
+                "max_s": 360.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 13,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -19753.8,
+                "min_s": -63600.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 13,
+                "median_s": 1140.0,
+                "p90_s": 62700.0,
+                "mean_s": 20893.8,
+                "min_s": 1140.0,
+                "max_s": 64740.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 6441,
+                "Suspicious": 2365,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "benign_trap": {
+                "Normal": 0,
+                "Suspicious": 32,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 8,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 3,
+                "Suspicious": 13,
+                "Failed attack": 0,
+                "Intrusion": 0
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.7314,
+              "benign_trap": 0.0,
+              "failed_attack": 0.0,
+              "successful_intrusion": 0.0
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        },
+        "test_ood": {
+          "n_entity_days": 5249,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 24,
+            "fp": 3254,
+            "fn": 0,
+            "tn": 1971,
+            "precision": 0.0073,
+            "recall": 1.0,
+            "f1": 0.0145,
+            "fpr": 0.6228
+          },
+          "per_label": {
+            "benign": {
+              "n": 5193,
+              "alert_rate": 0.6205
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 1.0
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 1.0
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 24,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -16612.5,
+                "min_s": -63000.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 24,
+                "median_s": 1140.0,
+                "p90_s": 54540.0,
+                "mean_s": 17492.5,
+                "min_s": 360.0,
+                "max_s": 64140.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": 0.0,
+                "min_s": 0.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 360.0,
+                "p90_s": 360.0,
+                "mean_s": 360.0,
+                "min_s": 360.0,
+                "max_s": 360.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 16,
+                "median_s": -16200.0,
+                "p90_s": 0.0,
+                "mean_s": -24918.8,
+                "min_s": -63000.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 16,
+                "median_s": 17340.0,
+                "p90_s": 56190.0,
+                "mean_s": 26058.8,
+                "min_s": 1140.0,
+                "max_s": 64140.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 1971,
+                "Suspicious": 3222,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "benign_trap": {
+                "Normal": 0,
+                "Suspicious": 32,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 8,
+                "Failed attack": 0,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 0,
+                "Suspicious": 16,
+                "Failed attack": 0,
+                "Intrusion": 0
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.3795,
+              "benign_trap": 0.0,
+              "failed_attack": 0.0,
+              "successful_intrusion": 0.0
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        }
+      },
+      "generalisation_gap_f1": 0.0027
+    },
+    "B_stage_count": {
+      "splits": {
+        "val": {
+          "n_entity_days": 8796,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 16,
+            "fp": 439,
+            "fn": 8,
+            "tn": 8333,
+            "precision": 0.0352,
+            "recall": 0.6667,
+            "f1": 0.0668,
+            "fpr": 0.05
+          },
+          "per_label": {
+            "benign": {
+              "n": 8740,
+              "alert_rate": 0.0474
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.7812
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.5
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 1,
+              "fp_rate": 0.125
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 16,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": 0.0,
+                "min_s": 0.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 16,
+                "median_s": 750.0,
+                "p90_s": 1140.0,
+                "mean_s": 750.0,
+                "min_s": 360.0,
+                "max_s": 1140.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": 0.0,
+                "min_s": 0.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 360.0,
+                "p90_s": 360.0,
+                "mean_s": 360.0,
+                "min_s": 360.0,
+                "max_s": 360.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 8,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": 0.0,
+                "min_s": 0.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 1140.0,
+                "p90_s": 1140.0,
+                "mean_s": 1140.0,
+                "min_s": 1140.0,
+                "max_s": 1140.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 8326,
+                "Suspicious": 212,
+                "Failed attack": 2,
+                "Intrusion": 200
+              },
+              "benign_trap": {
+                "Normal": 7,
+                "Suspicious": 16,
+                "Failed attack": 0,
+                "Intrusion": 9
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 0,
+                "Failed attack": 8,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 8,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 8
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.9526,
+              "benign_trap": 0.2188,
+              "failed_attack": 1.0,
+              "successful_intrusion": 0.5
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        },
+        "test_id": {
+          "n_entity_days": 8862,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 17,
+            "fp": 433,
+            "fn": 7,
+            "tn": 8405,
+            "precision": 0.0378,
+            "recall": 0.7083,
+            "f1": 0.0717,
+            "fpr": 0.049
+          },
+          "per_label": {
+            "benign": {
+              "n": 8806,
+              "alert_rate": 0.0462
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.8125
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.5625
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 2,
+              "fp_rate": 0.25
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 17,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -2597.6,
+                "min_s": -44160.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 17,
+                "median_s": 1140.0,
+                "p90_s": 1140.0,
+                "mean_s": 3370.6,
+                "min_s": 360.0,
+                "max_s": 45300.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": 0.0,
+                "min_s": 0.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 360.0,
+                "p90_s": 360.0,
+                "mean_s": 360.0,
+                "min_s": 360.0,
+                "max_s": 360.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 9,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -4906.7,
+                "min_s": -44160.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 9,
+                "median_s": 1140.0,
+                "p90_s": 9972.0,
+                "mean_s": 6046.7,
+                "min_s": 1140.0,
+                "max_s": 45300.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 8399,
+                "Suspicious": 203,
+                "Failed attack": 0,
+                "Intrusion": 204
+              },
+              "benign_trap": {
+                "Normal": 6,
+                "Suspicious": 16,
+                "Failed attack": 0,
+                "Intrusion": 10
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 0,
+                "Failed attack": 8,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 7,
+                "Suspicious": 1,
+                "Failed attack": 0,
+                "Intrusion": 8
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.9538,
+              "benign_trap": 0.1875,
+              "failed_attack": 1.0,
+              "successful_intrusion": 0.5
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        },
+        "test_ood": {
+          "n_entity_days": 5249,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 20,
+            "fp": 719,
+            "fn": 4,
+            "tn": 4506,
+            "precision": 0.0271,
+            "recall": 0.8333,
+            "f1": 0.0524,
+            "fpr": 0.1376
+          },
+          "per_label": {
+            "benign": {
+              "n": 5193,
+              "alert_rate": 0.1331
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.875
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.75
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 4,
+              "fp_rate": 0.5
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 20,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -8108.0,
+                "min_s": -51040.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 20,
+                "median_s": 1140.0,
+                "p90_s": 35146.0,
+                "mean_s": 8936.0,
+                "min_s": 360.0,
+                "max_s": 52180.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": 0.0,
+                "min_s": 0.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 360.0,
+                "p90_s": 360.0,
+                "mean_s": 360.0,
+                "min_s": 360.0,
+                "max_s": 360.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 12,
+                "median_s": 0.0,
+                "p90_s": 0.0,
+                "mean_s": -13513.3,
+                "min_s": -51040.0,
+                "max_s": 0.0
+              },
+              "lead_time": {
+                "n": 12,
+                "median_s": 1140.0,
+                "p90_s": 50074.0,
+                "mean_s": 14653.3,
+                "min_s": 1140.0,
+                "max_s": 52180.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 4502,
+                "Suspicious": 319,
+                "Failed attack": 3,
+                "Intrusion": 369
+              },
+              "benign_trap": {
+                "Normal": 4,
+                "Suspicious": 16,
+                "Failed attack": 0,
+                "Intrusion": 12
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 0,
+                "Failed attack": 8,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 4,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 12
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.8669,
+              "benign_trap": 0.125,
+              "failed_attack": 1.0,
+              "successful_intrusion": 0.75
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        }
+      },
+      "generalisation_gap_f1": 0.0193
+    },
+    "C_progression": {
+      "splits": {
+        "val": {
+          "n_entity_days": 8796,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 16,
+            "fp": 438,
+            "fn": 8,
+            "tn": 8334,
+            "precision": 0.0352,
+            "recall": 0.6667,
+            "f1": 0.0669,
+            "fpr": 0.0499
+          },
+          "per_label": {
+            "benign": {
+              "n": 8740,
+              "alert_rate": 0.0473
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.7812
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.5
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 1,
+              "fp_rate": 0.125
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 16,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": 12.0,
+                "min_s": 12.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 16,
+                "median_s": 738.0,
+                "p90_s": 1128.0,
+                "mean_s": 738.0,
+                "min_s": 348.0,
+                "max_s": 1128.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": 12.0,
+                "min_s": 12.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 348.0,
+                "p90_s": 348.0,
+                "mean_s": 348.0,
+                "min_s": 348.0,
+                "max_s": 348.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 8,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": 12.0,
+                "min_s": 12.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 1128.0,
+                "p90_s": 1128.0,
+                "mean_s": 1128.0,
+                "min_s": 1128.0,
+                "max_s": 1128.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 8327,
+                "Suspicious": 379,
+                "Failed attack": 2,
+                "Intrusion": 32
+              },
+              "benign_trap": {
+                "Normal": 7,
+                "Suspicious": 20,
+                "Failed attack": 0,
+                "Intrusion": 5
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 0,
+                "Failed attack": 8,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 8,
+                "Suspicious": 0,
+                "Failed attack": 0,
+                "Intrusion": 8
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.9527,
+              "benign_trap": 0.2188,
+              "failed_attack": 1.0,
+              "successful_intrusion": 0.5
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        },
+        "test_id": {
+          "n_entity_days": 8862,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 17,
+            "fp": 432,
+            "fn": 7,
+            "tn": 8406,
+            "precision": 0.0379,
+            "recall": 0.7083,
+            "f1": 0.0719,
+            "fpr": 0.0489
+          },
+          "per_label": {
+            "benign": {
+              "n": 8806,
+              "alert_rate": 0.0461
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.8125
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.5625
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 2,
+              "fp_rate": 0.25
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 17,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": -2586.4,
+                "min_s": -44160.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 17,
+                "median_s": 1128.0,
+                "p90_s": 1128.0,
+                "mean_s": 3359.3,
+                "min_s": 348.0,
+                "max_s": 45300.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": 12.0,
+                "min_s": 12.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 348.0,
+                "p90_s": 348.0,
+                "mean_s": 348.0,
+                "min_s": 348.0,
+                "max_s": 348.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 9,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": -4896.0,
+                "min_s": -44160.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 9,
+                "median_s": 1128.0,
+                "p90_s": 9962.4,
+                "mean_s": 6036.0,
+                "min_s": 1128.0,
+                "max_s": 45300.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 8400,
+                "Suspicious": 373,
+                "Failed attack": 0,
+                "Intrusion": 33
+              },
+              "benign_trap": {
+                "Normal": 6,
+                "Suspicious": 20,
+                "Failed attack": 0,
+                "Intrusion": 6
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 0,
+                "Failed attack": 8,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 7,
+                "Suspicious": 1,
+                "Failed attack": 0,
+                "Intrusion": 8
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.9539,
+              "benign_trap": 0.1875,
+              "failed_attack": 1.0,
+              "successful_intrusion": 0.5
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        },
+        "test_ood": {
+          "n_entity_days": 5249,
+          "missing_predictions": 0,
+          "binary": {
+            "tp": 20,
+            "fp": 716,
+            "fn": 4,
+            "tn": 4509,
+            "precision": 0.0272,
+            "recall": 0.8333,
+            "f1": 0.0526,
+            "fpr": 0.137
+          },
+          "per_label": {
+            "benign": {
+              "n": 5193,
+              "alert_rate": 0.1325
+            },
+            "benign_trap": {
+              "n": 32,
+              "alert_rate": 0.875
+            },
+            "failed_attack": {
+              "n": 8,
+              "alert_rate": 1.0
+            },
+            "successful_intrusion": {
+              "n": 16,
+              "alert_rate": 0.75
+            }
+          },
+          "traps": {
+            "typo_login": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "internal_backup": {
+              "n": 8,
+              "false_positives": 4,
+              "fp_rate": 0.5
+            },
+            "failed_external_auth": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            },
+            "noisy_benign": {
+              "n": 8,
+              "false_positives": 8,
+              "fp_rate": 1.0
+            }
+          },
+          "timing": {
+            "all_attacks": {
+              "latency": {
+                "n": 20,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": -8098.4,
+                "min_s": -51040.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 20,
+                "median_s": 1128.0,
+                "p90_s": 35146.0,
+                "mean_s": 8926.4,
+                "min_s": 348.0,
+                "max_s": 52180.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "failed_attack": {
+              "latency": {
+                "n": 8,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": 12.0,
+                "min_s": 12.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 8,
+                "median_s": 348.0,
+                "p90_s": 348.0,
+                "mean_s": 348.0,
+                "min_s": 348.0,
+                "max_s": 348.0
+              },
+              "warned_before_end_rate": 1.0
+            },
+            "successful_intrusion": {
+              "latency": {
+                "n": 12,
+                "median_s": 12.0,
+                "p90_s": 12.0,
+                "mean_s": -13505.3,
+                "min_s": -51040.0,
+                "max_s": 12.0
+              },
+              "lead_time": {
+                "n": 12,
+                "median_s": 1128.0,
+                "p90_s": 50074.0,
+                "mean_s": 14645.3,
+                "min_s": 1128.0,
+                "max_s": 52180.0
+              },
+              "warned_before_end_rate": 1.0
+            }
+          },
+          "four_class": {
+            "confusion": {
+              "benign": {
+                "Normal": 4505,
+                "Suspicious": 581,
+                "Failed attack": 4,
+                "Intrusion": 103
+              },
+              "benign_trap": {
+                "Normal": 4,
+                "Suspicious": 19,
+                "Failed attack": 0,
+                "Intrusion": 9
+              },
+              "failed_attack": {
+                "Normal": 0,
+                "Suspicious": 0,
+                "Failed attack": 8,
+                "Intrusion": 0
+              },
+              "successful_intrusion": {
+                "Normal": 4,
+                "Suspicious": 4,
+                "Failed attack": 0,
+                "Intrusion": 8
+              }
+            },
+            "accuracy_by_label": {
+              "benign": 0.8675,
+              "benign_trap": 0.125,
+              "failed_attack": 1.0,
+              "successful_intrusion": 0.5
+            },
+            "note": "Suspicious counts as an alert in binary metrics but is never the 'correct' four-class answer."
+          }
+        }
+      },
+      "generalisation_gap_f1": 0.0193
+    }
+  }
+}
