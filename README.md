@@ -1,112 +1,116 @@
-# Find the Intruder: progression-aware behavioural anomaly detection
+# Find the Intruder: progression-aware ML intrusion detection
 
 ALGOTHON'26 · Problem statement **ALG-CYBER-01, "Find the Intruder"**
 
-> **Status: work in progress.** This README separates what is implemented and tested from what is planned. No detection results are reported yet, because none have been measured.
+> **Research question.** Does adding temporal attack progression to behavioural anomaly detection improve intrusion detection and reduce false positives from benign look-alike activity?
 
-## Research question
+Anomaly detectors flag anything unusual, so mistyped passwords, backups and noisy clients flood analysts with false alarms. Real intrusions don't just look unusual: they **progress** through stages. Find the Intruder asks three questions for every entity (network address) and day:
 
-> Does adding temporal attack progression to behavioural anomaly detection improve intrusion detection while reducing false positives from benign look-alike activity?
+1. **Is the behaviour unusual?** An Isolation Forest trained only on benign activity scores 17 behavioural features per five-minute window.
+2. **Is there evidence of attack activity?** Rules detect signals for six stages: reconnaissance, credential attack, compromise, privilege escalation, persistence and exfiltration.
+3. **Do the signals form a plausible progression?** An order-sensitive progression score checks whether the stages happen in attack order over time.
 
-The planned contribution has four parts:
-1. **Behavioural anomaly detection** flags unusual activity in 5-minute behavioural windows.
-2. **Temporal attack progression** separates an attack that develops through stages from an isolated anomaly.
-3. **Trap-aware evaluation** tests whether benign look-alikes (password typos, backups, noisy clients) cause false positives.
-4. **Early warning and ablation** measure how early an attack is flagged, and whether temporal ordering helps compared with simply counting stages.
+The answers are combined into a **risk score (0–100)** and one of four verdicts: **Normal, Suspicious, Failed attack or Intrusion**. Every verdict is explained in the investigation interface.
 
-## Architecture
+## Pipeline
 
 ```mermaid
-flowchart TD
-    G[Synthetic scenario generator<br/>events.csv + hosts.csv]:::planned --> L[Event loader & validator]:::done
-    G -. ground_truth.csv .-> E
-    L --> F[5-minute behavioural features]:::done
-    F --> M[Anomaly model<br/>Isolation Forest, benign-trained]:::planned
-    F --> S[Stage signals<br/>RECON … EXFIL]:::planned
-    M --> X[Explanation layer<br/>deviation from benign baseline]:::planned
-    M --> R[Final risk & classification<br/>Normal / Suspicious / Failed attack / Intrusion]:::planned
-    S --> P[Temporal progression<br/>order + time window + partial chains]:::planned
-    P --> R
-    R --> E[Evaluation harness<br/>A vs B vs C, traps, OOD, latency, lead time]:::done
-    E --> D[Streamlit demo]:::planned
-    classDef done fill:#d4edda,stroke:#2e7d32;
-    classDef planned fill:#fff3cd,stroke:#b8860b;
+flowchart LR
+    A["Synthetic events"] --> B["Event parsing and entity attribution"]
+    B --> C["5-minute behavioural windows (17 features)"]
+    C --> D["Isolation Forest anomaly score"]
+    B --> E["Attack-stage signals"]
+    E --> F["Temporal progression"]
+    D --> G["Risk score and verdict"]
+    F --> G
+    G --> H["Evaluation and Streamlit UI"]
 ```
 
-Green = implemented and tested · yellow = planned. Ground truth (dashed line) only goes into the evaluation harness.
+Ground truth is used only by the evaluation step, never by the detector.
 
-## Status
+## The app
 
-| Component | Status | Where |
-|---|---|---|
-| Event schema, loader and validation (malformed rows skipped and counted, synthetic-IP check, label-leak guard) | ✅ implemented, tested | `intruder/events.py` |
-| Raw log parser (syslog/auth, web access, CSV/JSONL) | ✅ implemented | `intruder/parsers.py` |
-| 5-minute behavioural features + session attribution | ✅ implemented, tested | `intruder/features.py` |
-| Interface contracts and validators (scores, explanations, stages, progression, predictions) | ✅ implemented, tested | `intruder/contracts.py`, `docs/CONTRACTS.md` |
-| Ground-truth validation | ✅ implemented, tested | `evaluation/ground_truth.py` |
-| Evaluation harness (binary, per-trap, four-class, latency, lead time, OOD gap, majority baseline) | ✅ implemented, tested on hand-made tables | `evaluation/metrics.py`, `evaluation/run.py` |
-| Synthetic scenario generator | ⏳ planned | `generator/` |
-| Isolation Forest + explanation layer | ⏳ planned | |
-| Stage signals | ⏳ planned | |
-| Temporal progression, early warning, partial progression | ⏳ planned | |
-| Risk classification and threshold calibration on `val` | ⏳ planned | |
-| Ablation runs (A / B / C) and counterfactual | ⏳ planned; harness ready | |
-| Streamlit demo | ⏳ planned | |
-
-## Methodology
-
-**Data.** The generator writes abstract, non-operational security events (`events.csv`), a host inventory (`hosts.csv`) and a separate `ground_truth.csv` for four splits: `train` (benign only), `val`, `test_id`, and `test_ood` (a held-out scenario profile). All addresses are RFC 1918 or RFC 5737 documentation ranges. The full schema is in [docs/CONTRACTS.md](docs/CONTRACTS.md).
-
-**Features.** There are 17 per-entity features per 5-minute window: login successes and failures, distinct users and ports, denied connections, web 4xx and marked requests, internal and external outbound bytes, routine and elevated sudo, new accounts, event count and rate, failure ratio, and an off-hours flag. Destination class and off-hours are context features only.
-
-**Anomaly model (planned).** An Isolation Forest fitted on benign `train` windows only. The score is normalised to [0, 1] with higher = more anomalous. A separate explanation layer reports how each feature deviates from the benign baseline. The model itself does not attribute its score to features.
-
-**Progression (planned).** Stage signals are inferred from observations and combined into an order-sensitive, time-bounded progression per entity-day. It reports partial progress (for example "3 / 6 stages, current COMPROMISE, next PRIV_ESC") and the first warning time.
-
-**Evaluation (harness implemented).** The unit is entity × day, and attack = `failed_attack` + `successful_intrusion`. Detectors compared on the same entity-days:
-
-| ID | Detector |
+| Page | What it shows |
 |---|---|
-| 0 | Majority baseline (always Normal) |
-| A | Anomaly only |
-| B | Stage counting without temporal order |
-| C | Full progression-aware detector |
+| Dashboard | Detection overview, attack activity by stage, high-risk entities |
+| Intruders | Every flagged entity ranked by risk, with verdict, stages seen and detection latency |
+| Attack Stories | The stage-by-stage progression and a timeline with real timestamps; failed attacks show where the attack stopped |
+| Evidence | Why it was flagged: behavioural profile against the benign baseline, the events behind each stage, raw events |
+| Evaluation | The three detectors compared on the same data, in-distribution and shifted (OOD) |
+| About, User Guide, Quick Tour | How the model works, plain-English Q&A, a 60-second walkthrough |
 
-Reported metrics: precision, recall, F1, FPR, false positives for each trap type, four-class confusion, detection latency (`first_warning − attack_start`), early-warning lead time (`attack_end − first_warning`), and the in-distribution vs OOD F1 gap. Thresholds are to be calibrated on `val` only and then frozen for the test splits.
-
-## Reproduce
-
-Requires Python 3.11+ and `pandas`, `numpy`, `scikit-learn`, `pytest` (`streamlit` and `plotly` for the demo).
-
-```bash
-py -m pip install pandas numpy scikit-learn pytest streamlit plotly
-```
-
-```bash
-py -m pytest -q
-```
-
-Score a predictions file once the detectors exist:
-
-```bash
-py -m evaluation.run --predictions results/predictions.csv --data data/generated --out results
-```
-
-The generator and training commands will be added here once those components exist.
+Light and dark themes are available from the sidebar.
 
 ## Results
 
-**Not measured yet.** This section will hold the A / B / C results table (from `results/results_table.md`), the trap false-positive table, and latency and lead-time figures.
+Three detectors are compared on exactly the same entity-days (the evaluation unit is entity × day):
 
-## Limitations (known so far)
+- **A, Behaviour Anomaly:** anomaly score only
+- **B, Attack Signals:** anomaly score plus the number of distinct attack stages (order ignored)
+- **C, Attack Progression (proposed):** anomaly score plus temporal progression
 
-- Data is synthetic. Results will show behaviour on the generated scenario families and may not carry over to real networks.
+| Detector | Test set | Precision | Recall | F1 | False positive rate | Look-alike false positives |
+|---|---|---|---|---|---|---|
+| A, Behaviour Anomaly | ID | 0.009 | 87.5% | 0.017 | 27.1% | 32 of 32 |
+| B, Attack Signals | ID | 0.038 | 70.8% | 0.072 | 4.9% | 26 of 32 |
+| C, Attack Progression | ID | 0.038 | 70.8% | 0.072 | 4.9% | 26 of 32 |
+| A, Behaviour Anomaly | OOD | 0.007 | 100% | 0.015 | 62.3% | 32 of 32 |
+| B, Attack Signals | OOD | 0.027 | 83.3% | 0.052 | 13.8% | 28 of 32 |
+| C, Attack Progression | OOD | 0.027 | 83.3% | 0.053 | 13.7% | 28 of 32 |
+
+ID = test data with the same benign behaviour profile as training. OOD = test data with deliberately shifted benign behaviour.
+
+**What this shows (honestly):**
+
+- Adding attack evidence cuts the false positive rate from 27.1% to 4.9% (ID) and from 62.3% to 13.7% (OOD), at the cost of lower recall.
+- Precision is still low, and thresholds are provisional (not yet calibrated on validation data).
+- B and C flag almost the same entity-days. In the current configuration, temporal ordering mainly changes the verdict (Intrusion versus Failed attack) rather than which entities are flagged. So the answer to the research question is **"partly"**.
+
+Full results: [`results/results_table.md`](results/results_table.md) and [`results/metrics.json`](results/metrics.json).
+
+## Run it
+
+Requires Python 3.11+ (developed on 3.13).
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The detection results are already in `results/`, so the app runs straight away. To regenerate everything:
+
+```bash
+python -m generator.generate --out data/generated --seed 42
+python train.py --data data/generated --out models --seed 42
+python predict.py --data data/generated --model models/isolation_forest.pkl --splits val test_id test_ood --out results
+python -m evaluation.run --predictions results/predictions.csv --data data/generated --splits val test_id test_ood --out results
+python -m pytest -q
+```
+
+233 automated tests cover parsing, features, the model, stage signals, progression, prediction, evaluation and the app pages.
+
+## Data
+
+All data is **synthetic** and generated by `generator/`: abstract, non-operational security events (no exploit payloads or attack commands), a host inventory and a separate ground-truth file. Addresses use private and documentation IP ranges only. Splits:
+
+- `train`: benign activity only
+- `val`: validation
+- `test_id`: same benign behaviour profile as training
+- `test_ood`: shifted benign behaviour
+
+Benign look-alike "traps" are included: typo logins, internal backups, failed external authentication and noisy clients.
+
+## Limitations
+
+- Results come from synthetic data and may not carry over to real networks.
+- Thresholds are provisional, and precision is low.
 - The evaluation unit is entity × day, so attacks are assumed not to cross midnight.
-- Session attribution is heuristic: it uses the latest login of the same user on the same host.
-- `request_marker` is an abstract stand-in for a web-filter verdict. No payload inspection is performed.
+- This is an offline research prototype: no real-time monitoring and no automated response.
+
+## Tech stack
+
+Python, pandas, NumPy, scikit-learn, Streamlit, Plotly, pytest. No database and no external APIs.
 
 ## AI / tool disclosure
 
-- AI assistance: Claude (Anthropic) via Claude Code was used to draft the event loader, feature extraction, interface contracts, evaluation harness, tests and this README. All of it was reviewed by the author.
-- Libraries: pandas, NumPy, scikit-learn, pytest; Streamlit and Plotly are planned for the demo.
-- Datasets: none external. All data is synthetic.
+Claude (Anthropic) via Claude Code assisted with the event loader, feature extraction, interface contracts, evaluation harness, generator updates, training and prediction wiring, tests, the Streamlit interface and this README. The detection core (anomaly model, attack-stage rules, temporal progression and prediction logic) was written by the author, with small AI-assisted fixes. All code was reviewed by the author. No external datasets were used.
